@@ -56,13 +56,13 @@ const TheRemarkableFoundation = () => {
           );
         }}
       </InView>
-      <div className=" w-[213px] mx-auto mt-10 ">
+      <div className=" w-[350px] mx-auto mt-10 ">
         <Image
           alt="the remarkable foundation"
           src={remarkableFoundation}
           placeholder="blur"
-          width="213px"
-          height="160px"
+          width={600}
+          height={450}
           layout="responsive"
         />
       </div>
