@@ -16,6 +16,7 @@ import WhoWeAre from "components/sections/WhoWeAre";
 import CoreValues from "components/sections/CoreValues";
 import TheRemarkableFoundation from "components/sections/TheRemarkableFoundation";
 import AdvisoryCommittee from "components/sections/AdvisoryCommittee";
+import Footer from "components/Footer";
 
 export default function Home() {
   return (
@@ -44,6 +45,7 @@ export default function Home() {
         <WhoWeAre />
         <CoreValues />
         <TheRemarkableFoundation />
+        <Footer />
       </main>
     </>
   );
