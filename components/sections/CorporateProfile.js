@@ -52,7 +52,7 @@ const CorporateProfile = () => {
                   ANNUAL MEETING
                 </h2>
                 <div>
-                  <p>Monday, June 6, 2021 – 5pm</p>
+                  <p>Monday, June 6, 2022 – 5pm</p>
                   <p> Oconee State Bank</p>
                   <p>Corporate Headquarters</p>
                   <p>41 N. Main Street</p>

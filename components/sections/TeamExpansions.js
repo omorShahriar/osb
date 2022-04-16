@@ -65,6 +65,21 @@ const TeamExpansions = () => {
                 variants={cardVariants}
                 className=" col-span-4 flex flex-col  gap-y-6 "
               >
+                <div className="people-image ">
+                  <Image
+                    alt="mortgage image people talking"
+                    placeholder="blur"
+                    src={mortgageImage}
+                    width={1200}
+                    height={1190}
+                    className="rounded-md object-cover object-center "
+                  />
+                </div>
+              </motion.div>
+              <motion.div
+                variants={cardVariants}
+                className=" col-span-4 flex flex-col  gap-y-6 "
+              >
                 <div className="logo w-[230px]">
                   <Image
                     alt="Oconee State Financial Services logo"
@@ -123,21 +138,6 @@ const TeamExpansions = () => {
                 <Button link="https://www.meetremarkable.com/">
                   Meet the Remarkable Mortgage Team
                 </Button>
-              </motion.div>
-              <motion.div
-                variants={cardVariants}
-                className="col-start-5 col-span-4 flex flex-col  gap-y-6 "
-              >
-                <div className="people-image ">
-                  <Image
-                    alt="mortgage image people talking"
-                    placeholder="blur"
-                    src={mortgageImage}
-                    width={1200}
-                    height={1190}
-                    className="rounded-md object-cover object-center "
-                  />
-                </div>
               </motion.div>
             </motion.div>
           );

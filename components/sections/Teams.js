@@ -143,32 +143,33 @@ const Teams = () => {
             );
           }}
         </InView>
-        <InView threshold={0.25} triggerOnce>
-          {({ ref, inView }) => {
-            return (
-              <motion.div
-                variants={imageVariants}
-                initial="hidden"
-                ref={ref}
-                animate={inView ? "visible" : "hidden"}
-                className="col-span-4"
-              >
-                <div className="relative">
-                  <ImageBgBorder />
-                  <Image
-                    alt="Gwinnett marketing team image"
-                    src={gwinnettMarketTeam}
-                    placeholder="blur"
-                    width="1492px"
-                    height="995px"
-                    layout="responsive"
-                    className="  rounded-md "
-                  />
-                </div>
-              </motion.div>
-            );
-          }}
-        </InView>
+        <div className="col-span-4">
+          <InView threshold={0.25} triggerOnce>
+            {({ ref, inView }) => {
+              return (
+                <motion.div
+                  variants={imageVariants}
+                  initial="hidden"
+                  ref={ref}
+                  animate={inView ? "visible" : "hidden"}
+                >
+                  <div className="relative">
+                    <ImageBgBorder />
+                    <Image
+                      alt="Gwinnett marketing team image"
+                      src={gwinnettMarketTeam}
+                      placeholder="blur"
+                      width="1492px"
+                      height="995px"
+                      layout="responsive"
+                      className="  rounded-md "
+                    />
+                  </div>
+                </motion.div>
+              );
+            }}
+          </InView>
+        </div>
 
         <div className="col-span-4">
           <InView threshold={0.25} triggerOnce>
@@ -254,32 +255,33 @@ const Teams = () => {
             }}
           </InView>
         </div>
-        <InView threshold={0.25} triggerOnce>
-          {({ ref, inView }) => {
-            return (
-              <motion.div
-                variants={imageVariants}
-                initial="hidden"
-                ref={ref}
-                animate={inView ? "visible" : "hidden"}
-                className="col-span-4"
-              >
-                <div className=" relative ">
-                  <ImageBgBorder x={15} />
-                  <Image
-                    alt="Athens marketing team image"
-                    src={athensMarketTeam}
-                    placeholder="blur"
-                    width="1492px"
-                    height="2072px"
-                    layout="responsive"
-                    className="  rounded-md "
-                  />
-                </div>
-              </motion.div>
-            );
-          }}
-        </InView>
+        <div className="col-span-4">
+          <InView threshold={0.25} triggerOnce>
+            {({ ref, inView }) => {
+              return (
+                <motion.div
+                  variants={imageVariants}
+                  initial="hidden"
+                  ref={ref}
+                  animate={inView ? "visible" : "hidden"}
+                >
+                  <div className=" relative ">
+                    <ImageBgBorder x={15} />
+                    <Image
+                      alt="Athens marketing team image"
+                      src={athensMarketTeam}
+                      placeholder="blur"
+                      width="1492px"
+                      height="2072px"
+                      layout="responsive"
+                      className="  rounded-md "
+                    />
+                  </div>
+                </motion.div>
+              );
+            }}
+          </InView>
+        </div>
       </div>
     </Section>
   );

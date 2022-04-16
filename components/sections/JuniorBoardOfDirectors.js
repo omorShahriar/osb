@@ -235,13 +235,13 @@ const JuniorBoardOfDirectors = () => {
                     <span className="font-semibold text-osb-lightBlue block">
                       Mark Smith
                     </span>
-                    Westminster
+                    Westminster Christian Academy
                   </motion.p>
                   <motion.p variants={listVariants}>
                     <span className="font-semibold text-osb-lightBlue block">
                       Owen Weatherly
                     </span>
-                    Westminster
+                    Westminster Christian Academy
                   </motion.p>
                 </motion.div>
               );

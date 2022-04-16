@@ -195,7 +195,7 @@ const BoardOfDirectors = () => {
               >
                 <div className="text-justify">
                   <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
-                    VIRGINIA Wells MCGEARY JOINED IN 1990
+                    VIRGINIA WELLS MCGEARY JOINED IN 1990
                   </h2>
                   <p>
                     Board Chair, President & Chief Executive Officer, Wells &
