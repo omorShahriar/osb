@@ -4,7 +4,7 @@ import Section from "../Section";
 import SectionTitle from "../SectionTitle";
 
 //images
-import boardOfDirector from "/public/board-of-directors.jpg";
+import boardDirectorCropped from "/public/directors-cropped.jpg";
 
 //animation
 import { cardGridVariants, cardVariants } from "animations/variants";
@@ -24,7 +24,6 @@ const imageVariants = {
 };
 
 import { InView } from "react-intersection-observer";
-import ImageBgBorder from "components/ImageBgBorder";
 
 const BoardOfDirectors = () => {
   return (
@@ -41,11 +40,11 @@ const BoardOfDirectors = () => {
               className=" mt-20 mb-24 "
             >
               <Image
-                src={boardOfDirector}
-                placeholder="blur"
+                src="/report/directors-cropped.jpg"
+                priority
                 alt="Board of Directors"
-                width="3072px"
-                height="2049px"
+                width={1536}
+                height={765}
                 layout="responsive"
                 className=" rounded-xl "
               />
@@ -53,7 +52,7 @@ const BoardOfDirectors = () => {
           );
         }}
       </InView>
-      <InView threshold={0.25} triggerOnce>
+      <InView triggerOnce>
         {({ ref, inView }) => {
           return (
             <motion.div
@@ -67,8 +66,10 @@ const BoardOfDirectors = () => {
                 variants={cardVariants}
                 className="col-span-4 p-8 rounded-md border-2 border-slate-200"
               >
-                <div className="prose xl:prose-lg">
-                  <h3>G. ROBERT BISHOP JOINED IN 1991</h3>
+                <div className=" text-justify ">
+                  <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
+                    G. ROBERT BISHOP JOINED IN 1991
+                  </h2>
                   <p>
                     Retired, Georgia Department of Natural Resources Bob has
                     served as a director since 1991. His business experience,
@@ -81,8 +82,10 @@ const BoardOfDirectors = () => {
                 variants={cardVariants}
                 className="col-span-4 p-8 rounded-md border-2 border-slate-200"
               >
-                <div className="prose xl:prose-lg">
-                  <h3>TONY L. POWELL JOINED IN 2018</h3>
+                <div className="text-justify">
+                  <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
+                    TONY L. POWELL JOINED IN 2018
+                  </h2>
                   <p>
                     President, Powell Home Builders, Inc. Tony has a degree in
                     Landscape Architecture from the University of Georgia and
@@ -96,14 +99,16 @@ const BoardOfDirectors = () => {
                 variants={cardVariants}
                 className="col-span-4 p-8 rounded-md border-2 border-slate-200"
               >
-                <div className="prose xl:prose-lg">
-                  <h3>BRIAN J. BRODRICK JOINED IN 2016</h3>
+                <div className="text-justify">
+                  <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
+                    BRIAN J. BRODRICK JOINED IN 2016
+                  </h2>
                   <p>
                     Partner & Manager of Athens Office, Jackson Spalding Brian
                     has more than 25 years of strategic communications
                     experience, the past 22 at Jackson Spalding, Georgia’s
                     leading independent marketing communications agency. Brian
-                    also serves as a Watkinsville City Council member.
+                    also serves as the Major of Watkinsville, GA.
                   </p>
                 </div>
               </motion.div>
@@ -111,8 +116,10 @@ const BoardOfDirectors = () => {
                 variants={cardVariants}
                 className="col-span-4 p-8 rounded-md border-2 border-slate-200"
               >
-                <div className="prose xl:prose-lg">
-                  <h3>W. TOBY SMITH, CPA/CVA JOINED IN 2017</h3>
+                <div className="text-justify">
+                  <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
+                    W. TOBY SMITH, CPA/CVA JOINED IN 2017
+                  </h2>
                   <p>
                     Director of Financial Reporting & Assurance Services,
                     Trinity Accounting Group, PC Toby received his Bachelor of
@@ -130,8 +137,10 @@ const BoardOfDirectors = () => {
                 variants={cardVariants}
                 className="col-span-4 p-8 rounded-md border-2 border-slate-200"
               >
-                <div className="prose xl:prose-lg">
-                  <h3>HOLLY H. STEPHENSON JOINED IN 2020</h3>
+                <div className="text-justify">
+                  <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
+                    HOLLY H. STEPHENSON JOINED IN 2020
+                  </h2>
                   <p>
                     General Partner/Treasurer of Hardigree Properties & Employed
                     by Walton County Board of Commissioners Holly has a long
@@ -149,8 +158,10 @@ const BoardOfDirectors = () => {
                 variants={cardVariants}
                 className="col-span-4 p-8 rounded-md border-2 border-slate-200"
               >
-                <div className="prose xl:prose-lg">
-                  <h3>JONATHAN R. MURROW, MD JOINED IN 2016</h3>
+                <div className="text-justify">
+                  <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
+                    JONATHAN R. MURROW, MD JOINED IN 2016
+                  </h2>
                   <p>
                     Cardiologist, Piedmont Heart Institute – Athens Jonathan
                     received his undergraduate degree from Harvard College. He
@@ -165,8 +176,10 @@ const BoardOfDirectors = () => {
                 variants={cardVariants}
                 className="col-span-4 p-8 rounded-md border-2 border-slate-200"
               >
-                <div className="prose xl:prose-lg">
-                  <h3>J. ALBERT HALE, SR. JOINED IN 2008</h3>
+                <div className="text-justify">
+                  <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
+                    J. ALBERT HALE, SR. JOINED IN 2008
+                  </h2>
                   <p>
                     Board Vice Chair, Owner, Hale’s Dairy Albert brings a
                     balanced perspective to the Board of Directors. His
@@ -180,14 +193,16 @@ const BoardOfDirectors = () => {
                 variants={cardVariants}
                 className="col-span-4 p-8 rounded-md border-2 border-slate-200"
               >
-                <div className="prose xl:prose-lg">
-                  <h3>VIRGINIA W. MCGEARY JOINED IN 1990</h3>
+                <div className="text-justify">
+                  <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
+                    VIRGINIA Wells MCGEARY JOINED IN 1990
+                  </h2>
                   <p>
-                    Board Chair, President & CEO, Wells & Co. Realtors, Inc.
-                    Virginia graduated from UGA’s Terry College of Business in
-                    1982 with a degree in Banking and Finance, and she is proud
-                    to have been in the real estate business for more than 40
-                    years.
+                    Board Chair, President & Chief Executive Officer, Wells &
+                    Co. Realtors, Inc. Virginia graduated from UGA’s Terry
+                    College of Business in 1982 with a degree in Banking and
+                    Finance, and she is proud to have been in the real estate
+                    business for more than 40 years.
                   </p>
                 </div>
               </motion.div>
@@ -195,8 +210,10 @@ const BoardOfDirectors = () => {
                 variants={cardVariants}
                 className="col-span-4 p-8 rounded-md border-2 border-slate-200"
               >
-                <div className="prose xl:prose-lg">
-                  <h3>T. NEIL STEVENS JOINED IN 2016</h3>
+                <div className="text-justify">
+                  <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
+                    T. NEIL STEVENS JOINED IN 2016
+                  </h2>
                   <p>
                     President & Chief Executive Officer, Oconee State Bank Neil
                     brings more than 30 years of broad based banking experience
@@ -211,10 +228,12 @@ const BoardOfDirectors = () => {
                 variants={cardVariants}
                 className="col-span-4 p-8 rounded-md border-2 border-slate-200"
               >
-                <div className="prose xl:prose-lg">
-                  <h3>LAURA H. WHITAKER JOINED IN 2020</h3>
+                <div className="text-justify">
+                  <h2 className="text-lg text-left font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-4 ">
+                    LAURA H. WHITAKER JOINED IN 2020
+                  </h2>
                   <p>
-                    Executive Director, Extra Special People, Inc. Laura
+                    Chief Executive Officer, Extra Special People, Inc. Laura
                     obtained both her Bachelor’s degree in Collaborative Special
                     Education and her Master’s degree in Adapted Curriculum
                     Classic Autism at the University of Georgia. She is an

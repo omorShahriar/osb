@@ -64,7 +64,6 @@ const TheRemarkableFoundation = () => {
           width="213px"
           height="160px"
           layout="responsive"
-          className="rounded-md"
         />
       </div>
       <InView threshold={0.25} triggerOnce>
@@ -75,7 +74,7 @@ const TheRemarkableFoundation = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className="mt-20 grid grid-cols-3 gap-20"
+              className="mt-20 grid grid-cols-3 gap-20 text-justify"
             >
               <motion.div
                 variants={cardVariants}
@@ -118,9 +117,9 @@ const TheRemarkableFoundation = () => {
               <div className=" col-span-3 ">
                 <Button
                   className="mx-auto"
-                  link="https://www.oconeestatebank.com/the-remarkable-foundation"
+                  link="https://athensareacf.fcsuite.com/erp/donate/create?funit_id=1561"
                 >
-                  Read More on the Remarkable Foundation
+                  Make A Donation
                 </Button>
               </div>
             </motion.div>

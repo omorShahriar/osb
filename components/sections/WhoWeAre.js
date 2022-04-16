@@ -50,7 +50,7 @@ const WhoWeAre = () => {
     <Section>
       <SectionTitle>WHO WE ARE</SectionTitle>
       <CardGrid />
-      <InView threshold={0.25} triggerOnce>
+      <InView threshold={0.15} triggerOnce>
         {({ ref, inView }) => {
           return (
             <motion.div
@@ -121,7 +121,7 @@ const WhoWeAre = () => {
                   placeholder="blur"
                   alt="we-6"
                   width="372px"
-                  height="496px"
+                  height="416px"
                   layout="responsive"
                   className=" rounded-md "
                 />

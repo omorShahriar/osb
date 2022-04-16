@@ -89,25 +89,20 @@ const JuniorBoardOfDirectors = () => {
                 extracurricular achievements of this year’s Board is unmatched.
                 These students are making a difference and marking lives in
                 their own right in their corner of the world. At Oconee State
-                Bank we are proud to fulfill our commitment to serving our local
-                school systems through community education initiatives, and
-                working directly with aspiring young leaders is an honor for our
-                team. Going forward, in 2022 and beyond, our vision is to expand
-                the Junior Board program across all markets we serve, creating
-                remarkable education experiences for more student populations
-                than ever before.
+                Bank, we are proud to fulfill our commitment to serving our
+                local school systems through community education initiatives,
+                and working directly with aspiring young leaders is an honor for
+                our team. Going forward, in 2022 and beyond, our vision is to
+                expand the Junior Board program across all markets we serve,
+                creating remarkable education experiences for more student
+                populations than ever before.
               </motion.p>
             );
           }}
         </InView>
       </div>
-      <div className=" grid  grid-cols-9 gap-x-14 gap-y-24 mt-40 items-center">
-        <div className="col-span-9">
-          <h2 className=" font-semibold text-3xl text-center ">
-            Junior Board of Directors 2021-2022
-          </h2>
-        </div>
-        <div className=" col-span-2">
+      <div className=" grid  grid-cols-12 gap-x-10 gap-y-24 mt-20 ">
+        <div className=" col-span-3">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -119,44 +114,71 @@ const JuniorBoardOfDirectors = () => {
                   className=" prose xl:prose-lg"
                 >
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Garrett Kennedy</span>,
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Garrett Kennedy
+                    </span>
                     Athens Academy
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Madeline Wicker</span>,
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Madeline Wicker
+                    </span>
                     Athens Academy
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Becca Clower</span>, NOHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Becca Clower
+                    </span>
+                    North Oconee High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Cole Davidson</span>, NOHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Cole Davidson
+                    </span>
+                    North Oconee High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Yerahm Hong</span>, NOHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Yerahm Hong
+                    </span>
+                    North Oconee High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Camden Howell</span>, NOHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Camden Howell
+                    </span>
+                    North Oconee High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Justin Wells</span>, NOHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Justin Wells
+                    </span>
+                    North Oconee High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Conagher Wheeler</span>,
-                    NOHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Conagher Wheeler
+                    </span>
+                    North Oconee High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Jackson White</span>, NOHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Jackson White
+                    </span>
+                    North Oconee High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Nick Wiley</span>, NOHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Nick Wiley
+                    </span>
+                    North Oconee High School
                   </motion.p>
                 </motion.div>
               );
             }}
           </InView>
         </div>
-        <div className="col-start-3 col-span-2">
+        <div className=" col-span-3">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -168,33 +190,57 @@ const JuniorBoardOfDirectors = () => {
                   className=" prose xl:prose-lg"
                 >
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Abbie Chen</span>, OCHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Abbie Chen
+                    </span>
+                    Oconee County High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Daniel Elder</span>, OCHSS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Daniel Elder
+                    </span>
+                    Oconee County High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Will Fuller</span>, OCHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Will Fuller
+                    </span>
+                    Oconee County High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Landon Hagwood</span>, OCHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Landon Hagwood
+                    </span>
+                    Oconee County High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Maggie Michael</span>, OCHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Maggie Michael
+                    </span>
+                    Oconee County High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Drew Mitchell</span>, OCHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Drew Mitchell
+                    </span>
+                    Oconee County High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Rylee Ann Royster</span>,
-                    OCHS
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Rylee Ann Royster
+                    </span>
+                    Oconee County High School
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Mark Smith</span>,
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Mark Smith
+                    </span>
                     Westminster
                   </motion.p>
                   <motion.p variants={listVariants}>
-                    <span className="font-semibold">Owen Weatherly</span>,
+                    <span className="font-semibold text-osb-lightBlue block">
+                      Owen Weatherly
+                    </span>
                     Westminster
                   </motion.p>
                 </motion.div>
@@ -210,7 +256,7 @@ const JuniorBoardOfDirectors = () => {
                 initial="hidden"
                 ref={ref}
                 animate={inView ? "visible" : "hidden"}
-                className="col-start-6 col-span-4"
+                className=" col-start-8 col-span-5"
               >
                 <div className="relative">
                   <ImageBgBorder x={15} />
