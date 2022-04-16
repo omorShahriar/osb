@@ -114,7 +114,7 @@ const PresidentLetter = () => {
                     ourselves by doing the additional 20%
                     <strong> radically</strong> different than our competitors.
                     We want the 20% to be what makes us uniquely different and
-                    sets us apart from the rest. At Oconee State Bank we are
+                    sets us apart from the rest. At Oconee State Bank, we are
                     fanatical about creating raving fans by offering a high
                     level of customer service and wowing our customers by truly
                     going the second mile!
