@@ -84,13 +84,13 @@ const BusinessServicesCards = () => {
               <motion.p variants={listItemVariants}>
                 Items processed through RDC
                 <span className=" float-right font-semibold italic ">
-                  155,439
+                  157,871
                 </span>
               </motion.p>
               <motion.p variants={listItemVariants}>
                 Savings through usage of RDC
                 <span className=" float-right font-semibold italic ">
-                  $7,664.22
+                  $97,880.02
                 </span>
               </motion.p>
               <motion.p variants={listItemVariants}>

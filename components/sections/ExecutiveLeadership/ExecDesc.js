@@ -104,7 +104,7 @@ export const CloDesc = () => {
               Philip Bernadi
             </motion.p>
             <motion.p variants={textVariants} className=" text-base  ">
-              Executive Vice President, Chief Lending Officer
+              Executive Vice President, Chief Banking Officer
             </motion.p>
           </motion.div>
         );
@@ -130,7 +130,7 @@ export const CaoDesc = () => {
               Cristi Donahue
             </motion.p>
             <motion.p variants={textVariants} className=" text-base  ">
-              Executive Vice President, Chief Administration Officer
+              Executive Vice President, Chief Administrative Officer
             </motion.p>
           </motion.div>
         );

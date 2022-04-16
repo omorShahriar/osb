@@ -6,6 +6,68 @@ import SectionTitle from "../SectionTitle";
 import { cardGridVariants, cardVariants } from "animations/variants";
 
 const AdvisoryCommittee = () => {
+  const data = [
+    {
+      title: "Athens / Oconee",
+      committee: [
+        {
+          name: "Andy Thoms",
+          designation: "CEO & Co-Founder, See. Spark. Go.",
+        },
+        { name: "Davis Knox", designation: "CEO & Co-Founder, Fire & Flavor" },
+        {
+          name: "Donald Hansford",
+          designation: "Attorney at Law, Donald W. Hansford, PC",
+        },
+        {
+          name: "Elmer Stancil",
+          designation: "Senior Managing Director, Dentons",
+        },
+        { name: "Robert Griffith", designation: "President, Golden Pantry" },
+        {
+          name: "Lenn Chandler",
+          designation: "Retired Vice President, Georgia Power",
+        },
+        { name: "Dan Elder", designation: "President, Oconee Well Drillers" },
+        {
+          name: "Delena Brockmann",
+          designation: "Director, Piedmont Athens-Oconee Campus",
+        },
+        {
+          name: "Dutch Guest",
+          designation: "Vice President, LAD Truck Lines, Inc.",
+        },
+        { name: "Kevin Daniel", designation: "Pastor, Bethel Baptist Church" },
+        { name: "Tiffany Carter", designation: "CPA, WAG CPA" },
+      ],
+    },
+    {
+      title: "Gwinnett",
+      committee: [
+        {
+          name: "Greg Cantrell",
+          designation: "Broker/Owner, Living Stone Properties",
+        },
+        { name: "Rob Coatsworth", designation: "CEO, CTR Partners, Inc." },
+        { name: "Matt Hyatt", designation: "President & CEO, Rocket IT" },
+        {
+          name: "Lee Merritt",
+          designation: "Partner, Merritt Properties, Inc.",
+        },
+        {
+          name: "Russell Reece",
+          designation: "Atlanta Managing Partner, Hancock Askew & Co.",
+        },
+        { name: "Marlon Allen", designation: "Partner, RAMP Marketing LLC" },
+      ],
+    },
+    {
+      title: "Macon",
+      committee: [
+        { name: "Hall Harden", designation: "Agent, Alfa Insurance" },
+      ],
+    },
+  ];
   return (
     <Section>
       <SectionTitle>Community Advisory Committee</SectionTitle>
@@ -20,52 +82,59 @@ const AdvisoryCommittee = () => {
               className="grid  grid-cols-9 gap-x-14 gap-y-24 mt-16"
             >
               <motion.div variants={cardVariants} className="col-span-3 ">
-                <div className="   ">
-                  <h3>Athens / Oconee</h3>
-                  <ul>
-                    <li>Andy Thoms - CEO & Co-Founder, See. Spark. Go.</li>
-                    <li>Davis Knox - CEO & Co-Founder, Fire & Flavor</li>
-                    <li>
-                      Donald Hansford - Attorney at Law, Donald W. Hansford, PC
-                    </li>
-                    <li>Elmer Stancil - Senior Managing Director, Dentons</li>
-                    <li>Robert Griffith - President, Golden Pantry</li>
-                    <li>
-                      Lenn Chandler - Retired Vice President, Georgia Power
-                    </li>
-                    <li>Dan Elder - President, Oconee Well Drillers</li>
-                    <li>
-                      Delena Brockmann - Director, Piedmont Athens-Oconee Campus
-                    </li>
-                    <li>Dutch Guest - Vice President, LAD Truck Lines, Inc.</li>
-                    <li>Kevin Daniel - Pastor, Bethel Baptist Church</li>
-                    <li>Tiffany Carter - CPA, WAG CPA</li>
+                <div className=" flex flex-col gap-y-12  ">
+                  <h2 className="text-3xl font-semibold text-osb-green">
+                    {data[0].title}
+                  </h2>
+                  <ul className="flex flex-col gap-y-6">
+                    {data[0].committee.map((c, i) => {
+                      return (
+                        <li key={i}>
+                          <p className=" text-lg ">{c.name}</p>
+                          <p className=" text-sm font-bold text-osb-lightBlue ">
+                            {c.designation}
+                          </p>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               </motion.div>
               <motion.div variants={cardVariants} className="col-span-3">
-                <div className="  ">
-                  <h3>Gwinnett</h3>
-                  <ul>
-                    <li>
-                      Greg Cantrell- Broker/Owner, Living Stone Properties
-                    </li>
-                    <li>Rob Coatsworth - CEO, CTR Partners, Inc.</li>
-                    <li>Matt Hyatt - President & CEO, Rocket IT</li>
-                    <li>Lee Merritt - Partner, Merritt Properties, Inc.</li>
-                    <li>
-                      Russell Reece - Atlanta Managing Partner, Hancock Askew &
-                      Co.
-                    </li>
-                    <li>Marlon Allen - Partner, RAMP Marketing LLC</li>
+                <div className=" flex flex-col gap-y-12  ">
+                  <h2 className="text-3xl font-semibold text-osb-green">
+                    {data[1].title}
+                  </h2>
+                  <ul className="flex flex-col gap-y-6">
+                    {data[1].committee.map((c, i) => {
+                      return (
+                        <li key={i}>
+                          <p className=" text-lg ">{c.name}</p>
+                          <p className=" text-sm font-bold text-osb-lightBlue ">
+                            {c.designation}
+                          </p>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               </motion.div>
               <motion.div variants={cardVariants} className="col-span-3">
-                <div className="   ">
-                  <h3>Macon</h3>
-                  <ul>
-                    <li>Hall Harden - Agent, Alfa Insurance</li>
+                <div className=" flex flex-col gap-y-12   ">
+                  <h2 className="text-3xl font-semibold text-osb-green">
+                    {data[2].title}
+                  </h2>
+                  <ul className="flex flex-col gap-y-6">
+                    {data[2].committee.map((c, i) => {
+                      return (
+                        <li key={i}>
+                          <p className=" text-lg ">{c.name}</p>
+                          <p className=" text-sm font-bold text-osb-lightBlue ">
+                            {c.designation}
+                          </p>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               </motion.div>

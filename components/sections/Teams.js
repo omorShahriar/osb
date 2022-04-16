@@ -100,10 +100,10 @@ const Teams = () => {
                   >
                     “As a team, we have grown leaps and bounds over the last
                     year. We have successfully managed a loan portfolio of
-                    nearly 108 million, generating 32 million in new loan
+                    nearly $108 million, generating $32 million in new loan
                     production for the year. Together we helped the bank
-                    navigate round two of Paycheck Protection Plan loans of 18
-                    million, and 71 million in forgiveness. We are proud to say
+                    navigate round two of Paycheck Protection Plan loans of $18
+                    million, and $71 million in forgiveness. We are proud to say
                     that the OC Market Retail team exceeded budget and we
                     continue to add new team members that hold true to our
                     mission and values. We are looking forward to a great
@@ -193,8 +193,8 @@ const Teams = () => {
                     className="text-justify"
                   >
                     “The Gwinnett Team had a great 2021 with many
-                    accomplishments. Moved into our 3,500sf permanent location
-                    in Duluth, Georgia. The new space will be our home for many
+                    accomplishments. We moved into our new permanent location in
+                    Duluth, Georgia. The new space will be our home for many
                     years to come that provides the needed room to expand the
                     team and offer a great place for our clients to visit. The
                     Gwinnett Team worked extremely hard in 2021 and their
@@ -205,7 +205,7 @@ const Teams = () => {
                     thank you to all of our shareholders, without you, this
                     would not be possible. The Gwinnett Team is up to the
                     challenge and we look forward to reporting our successes in
-                    2023.”
+                    2022.”
                     <span className="block not-italic font-semibold text-sm my-4 text-right">
                       – Joe Godfrey, Gwinnett Market President
                     </span>
@@ -239,10 +239,11 @@ const Teams = () => {
                   >
                     “In 2021, we became a full service depository location while
                     hitting internal milestones for asset growth and cash
-                    management services. We also eclipsed $100 million in loans
-                    outstanding and had banner deposit growth. Most recently
-                    with a new ATM in front of our office. We are poised for an
-                    amazing 2022!”
+                    management services. We eclipsed $100 million in loans
+                    outstanding and had banner deposit growth. Additionally, we
+                    most recently added an ATM in front of our office. Most
+                    recently with a new ATM in front of our office. We are
+                    poised for an amazing 2022!”
                     <span className="block not-italic font-semibold text-sm my-4 text-right">
                       – Chad Thomason and Phillip Edwards, Athens Market
                       Presidents

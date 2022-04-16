@@ -35,7 +35,7 @@ const ExecutiveLeadership = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className="grid mt-24 grid-cols-12 gap-12 "
+              className="grid mt-24 grid-cols-12 gap-x-12 gap-y-20 "
             >
               <motion.div
                 variants={cardVariants}
@@ -99,7 +99,7 @@ const ExecutiveLeadership = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className="flex col-span-4 flex-col gap-y-4  items-center text-center  "
+                className="flex col-start-3 col-span-4 flex-col gap-y-4  items-center text-center  "
               >
                 <div className=" w-5/12    rounded-md ">
                   <div className=" relative ">
@@ -121,7 +121,7 @@ const ExecutiveLeadership = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className="flex  col-span-4 flex-col gap-y-4 items-center text-center  "
+                className="flex  col-start-7 col-span-4 flex-col gap-y-4 items-center text-center  "
               >
                 <div className=" w-5/12 ">
                   <div className=" relative">
