@@ -242,8 +242,7 @@ const Teams = () => {
                     hitting internal milestones for asset growth and cash
                     management services. We eclipsed $100 million in loans
                     outstanding and had banner deposit growth. Additionally, we
-                    most recently added an ATM in front of our office. Most
-                    recently with a new ATM in front of our office. We are
+                    most recently added an ATM in front of our office. We are
                     poised for an amazing 2022!”
                     <span className="block not-italic font-semibold text-sm my-4 text-right">
                       – Chad Thomason and Phillip Edwards, Athens Market

@@ -4,12 +4,12 @@ import Section from "../Section";
 import SectionTitle from "../SectionTitle";
 import ExecutiveGrid from "../ExecutiveGrid";
 import {
-  IncomeChart,
-  BookValueChart,
-  AssetChart,
-  LoanChart,
-  DepositChart,
-} from "components/Charts";
+  IncomeChartBox,
+  BookValueChartBox,
+  TotalAssetsChartBox,
+  TotalLoansChartBox,
+  TotalDepositsChartBox,
+} from "./FinancialHighlights/ChartBox";
 
 //images
 import cfo from "public/cfo-dp.jpg";
@@ -24,45 +24,20 @@ const FinancialHighlights = () => {
     <Section>
       <SectionTitle>Financial Highlights</SectionTitle>
       <div className="grid mt-24 grid-cols-12 gap-x-8 gap-y-16">
-        <div className=" flex flex-col gap-12 col-span-5">
-          <h2 className=" text-3xl font-semibold text-center">
-            Net Income ($Millions)
-          </h2>
-          <div className=" h-80">
-            <IncomeChart />
-          </div>
+        <div className=" col-span-5">
+          <IncomeChartBox />
         </div>
-        <div className=" flex flex-col gap-12 col-start-7 col-span-5">
-          <h2 className=" text-3xl font-semibold text-center">
-            Book Value Per Share
-          </h2>
-          <div className=" h-80">
-            <BookValueChart />
-          </div>
+        <div className="  col-start-7 col-span-5">
+          <BookValueChartBox />
         </div>
-        <div className=" flex flex-col gap-12  col-span-5">
-          <h2 className=" text-3xl font-semibold text-center">
-            Total Assets ($Millions)
-          </h2>
-          <div className="h-80">
-            <AssetChart />
-          </div>
+        <div className="  col-span-5">
+          <TotalAssetsChartBox />
         </div>
-        <div className=" flex flex-col gap-12 col-start-7 col-span-5">
-          <h2 className=" text-3xl font-semibold text-center">
-            Total Loans ($Millions)
-          </h2>
-          <div className=" h-80">
-            <LoanChart />
-          </div>
+        <div className="  col-start-7 col-span-5">
+          <TotalLoansChartBox />
         </div>
-        <div className=" flex flex-col gap-12 col-start-4 col-span-5">
-          <h2 className=" text-3xl font-semibold text-center">
-            Total Deposits ($Millions)
-          </h2>
-          <div className=" h-80">
-            <DepositChart />
-          </div>
+        <div className="  col-start-4 col-span-5">
+          <TotalDepositsChartBox />
         </div>
       </div>
       <ExecutiveGrid>

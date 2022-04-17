@@ -1,244 +1,339 @@
-import React, { PureComponent } from "react";
+import React from "react";
+
+// import { useEffect, useRef } from "react";
 import {
-  BarChart,
-  Bar,
-  Cell,
-  XAxis,
-  YAxis,
-  CartesianGrid,
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
   Tooltip,
   Legend,
-  ResponsiveContainer,
-} from "recharts";
+} from "chart.js";
+import { Bar } from "react-chartjs-2";
 
-const incomeData = [
-  {
-    name: "2014",
-    uv: 1.56,
-  },
-  {
-    name: "2015",
-    uv: 1.94,
-  },
-  {
-    name: "2016",
-    uv: 2.51,
-  },
-  {
-    name: "2017",
-    uv: 1.92,
-  },
-  {
-    name: "2018",
-    uv: 1.74,
-  },
-  {
-    name: "2019",
-    uv: 3.75,
-  },
-  {
-    name: "2020",
-    uv: 1.88,
-  },
-  {
-    name: "2021",
-    uv: 3.0,
-  },
-];
-const bookValueData = [
-  {
-    name: "2014",
-    uv: 29.67,
-  },
-  {
-    name: "2015",
-    uv: 31.48,
-  },
-  {
-    name: "2016",
-    uv: 31.88,
-  },
-  {
-    name: "2017",
-    uv: 34.07,
-  },
-  {
-    name: "2018",
-    uv: 34.1,
-  },
-  {
-    name: "2019",
-    uv: 39.82,
-  },
-  {
-    name: "2020",
-    uv: 42.56,
-  },
-  {
-    name: "2021",
-    uv: 43.88,
-  },
-];
-const assetData = [
-  {
-    name: "2015",
-    uv: 298,
-  },
-  {
-    name: "2016",
-    uv: 335,
-  },
-  {
-    name: "2017",
-    uv: 355,
-  },
-  {
-    name: "2018",
-    uv: 349,
-  },
-  {
-    name: "2019",
-    uv: 399,
-  },
-  {
-    name: "2020",
-    uv: 494,
-  },
-  {
-    name: "2021",
-    uv: 571,
-  },
-];
-const loanData = [
-  {
-    name: "2014",
-    uv: 131,
-  },
-  {
-    name: "2015",
-    uv: 139,
-  },
-  {
-    name: "2016",
-    uv: 146,
-  },
-  {
-    name: "2017",
-    uv: 169,
-  },
-  {
-    name: "2018",
-    uv: 224,
-  },
-  {
-    name: "2019",
-    uv: 253,
-  },
-  {
-    name: "2020",
-    uv: 330,
-  },
-  {
-    name: "2021",
-    uv: 303,
-  },
-];
-const depositData = [
-  {
-    name: "2014",
-    uv: 256,
-  },
-  {
-    name: "2015",
-    uv: 269,
-  },
-  {
-    name: "2016",
-    uv: 306,
-  },
-  {
-    name: "2017",
-    uv: 324,
-  },
-  {
-    name: "2018",
-    uv: 318,
-  },
-  {
-    name: "2019",
-    uv: 361,
-  },
-  {
-    name: "2020",
-    uv: 444,
-  },
-];
+import {
+  incomeData,
+  totalDepositsData,
+  totalLoansData,
+  totalAssetsData,
+  bookValueData,
+} from "data/chartData";
 
-class IncomeChart extends PureComponent {
-  render() {
-    return (
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart width={150} height={40} data={incomeData}>
-          <Bar dataKey="uv" fill="#00945f" />
-          <XAxis dataKey="name" />
-          <YAxis />
-        </BarChart>
-      </ResponsiveContainer>
-    );
-  }
-}
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
-class BookValueChart extends PureComponent {
-  render() {
-    return (
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart width={150} height={40} data={bookValueData}>
-          <Bar dataKey="uv" fill="#0056b8" />
-          <XAxis dataKey="name" />
-          <YAxis />
-        </BarChart>
-      </ResponsiveContainer>
-    );
-  }
-}
-class AssetChart extends PureComponent {
-  render() {
-    return (
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart width={150} height={40} data={assetData}>
-          <Bar dataKey="uv" fill="#0056b8" />
-          <XAxis dataKey="name" />
-          <YAxis />
-        </BarChart>
-      </ResponsiveContainer>
-    );
-  }
-}
-class LoanChart extends PureComponent {
-  render() {
-    return (
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart width={150} height={40} data={loanData}>
-          <Bar dataKey="uv" fill="#00945f" />
-          <XAxis dataKey="name" />
-          <YAxis />
-        </BarChart>
-      </ResponsiveContainer>
-    );
-  }
-}
-class DepositChart extends PureComponent {
-  render() {
-    return (
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart width={150} height={40} data={depositData}>
-          <Bar dataKey="uv" fill="#0056b8" />
-          <XAxis dataKey="name" />
-          <YAxis />
-        </BarChart>
-      </ResponsiveContainer>
-    );
-  }
-}
+const options = (type) => {
+  switch (type) {
+    case "income":
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: {
+          easing: "easeInOutSine",
+        },
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: function (context) {
+                var label = context.dataset.label || "";
 
-export { IncomeChart, BookValueChart, AssetChart, LoanChart, DepositChart };
+                if (label) {
+                  label += ": ";
+                }
+                if (context.parsed.y !== null) {
+                  label += new Intl.NumberFormat("en-US", {
+                    style: "currency",
+                    currency: "USD",
+                  }).format(context.parsed.y / 1000000);
+                }
+                return label;
+              },
+            },
+          },
+          legend: {
+            display: false,
+          },
+          title: {
+            display: true,
+            color: "#000",
+            font: {
+              size: 24,
+            },
+            text: "Net Income ($Millions)",
+          },
+        },
+        scales: {
+          y: {
+            ticks: {
+              // Include a dollar sign in the ticks
+              callback: function (value, index, values) {
+                return "$" + value / 1000000;
+              },
+            },
+          },
+        },
+      };
+    case "bookValue":
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: {
+          easing: "easeInOutSine",
+        },
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: function (context) {
+                var label = context.dataset.label || "";
+
+                if (label) {
+                  label += ": ";
+                }
+                if (context.parsed.y !== null) {
+                  label += new Intl.NumberFormat("en-US", {
+                    style: "currency",
+                    currency: "USD",
+                  }).format(context.parsed.y);
+                }
+                return label;
+              },
+            },
+          },
+          legend: {
+            display: false,
+          },
+          title: {
+            display: true,
+            color: "#000",
+            font: {
+              size: 24,
+            },
+            text: "Book Value Per Share",
+          },
+        },
+        scales: {
+          y: {
+            ticks: {
+              // Include a dollar sign in the ticks
+              callback: function (value) {
+                return "$" + value;
+              },
+            },
+          },
+        },
+      };
+    case "assets":
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: {
+          easing: "easeInOutSine",
+        },
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: function (context) {
+                var label = context.dataset.label || "";
+
+                if (label) {
+                  label += ": ";
+                }
+                if (context.parsed.y !== null) {
+                  label += new Intl.NumberFormat("en-US", {
+                    style: "currency",
+                    currency: "USD",
+                  }).format(context.parsed.y / 1000000);
+                }
+                return label;
+              },
+            },
+          },
+          legend: {
+            display: false,
+          },
+          title: {
+            display: true,
+            color: "#000",
+            font: {
+              size: 24,
+            },
+            text: "Total Assets ($Millions)",
+          },
+        },
+        scales: {
+          y: {
+            ticks: {
+              // Include a dollar sign in the ticks
+              callback: function (value, index, values) {
+                return "$" + value / 1000000;
+              },
+            },
+          },
+        },
+      };
+    case "loans":
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: {
+          easing: "easeInOutSine",
+        },
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: function (context) {
+                var label = context.dataset.label || "";
+
+                if (label) {
+                  label += ": ";
+                }
+                if (context.parsed.y !== null) {
+                  label += new Intl.NumberFormat("en-US", {
+                    style: "currency",
+                    currency: "USD",
+                  }).format(context.parsed.y / 1000000);
+                }
+                return label;
+              },
+            },
+          },
+          legend: {
+            display: false,
+          },
+          title: {
+            display: true,
+            color: "#000",
+            font: {
+              size: 24,
+            },
+            text: "Total Loans ($Millions)",
+          },
+        },
+        scales: {
+          y: {
+            ticks: {
+              // Include a dollar sign in the ticks
+              callback: function (value, index, values) {
+                return "$" + value / 1000000;
+              },
+            },
+          },
+        },
+      };
+    case "deposits":
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: {
+          easing: "easeInOutSine",
+        },
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: function (context) {
+                var label = context.dataset.label || "";
+
+                if (label) {
+                  label += ": ";
+                }
+                if (context.parsed.y !== null) {
+                  label += new Intl.NumberFormat("en-US", {
+                    style: "currency",
+                    currency: "USD",
+                  }).format(context.parsed.y / 1000000);
+                }
+                return label;
+              },
+            },
+          },
+          legend: {
+            display: false,
+          },
+          title: {
+            display: true,
+            color: "#000",
+            font: {
+              size: 24,
+            },
+            text: "Total Deposits ($Millions)",
+          },
+        },
+        scales: {
+          y: {
+            ticks: {
+              // Include a dollar sign in the ticks
+              callback: function (value, index, values) {
+                return "$" + value / 1000000;
+              },
+            },
+          },
+        },
+      };
+  }
+};
+
+const IncomeChart = () => {
+  return (
+    <Bar
+      data={incomeData}
+      width={400}
+      height={300}
+      options={options("income")}
+    />
+  );
+};
+const BookValueChart = () => {
+  return (
+    <Bar
+      data={bookValueData}
+      width={400}
+      height={300}
+      options={options("bookValue")}
+    />
+  );
+};
+const TotalAssetsChart = () => {
+  return (
+    <Bar
+      data={totalAssetsData}
+      width={400}
+      height={300}
+      options={options("assets")}
+    />
+  );
+};
+const TotalLoansChart = () => {
+  return (
+    <Bar
+      data={totalLoansData}
+      width={400}
+      height={300}
+      options={options("loans")}
+    />
+  );
+};
+const TotalDepositsChart = () => {
+  return (
+    <Bar
+      data={totalDepositsData}
+      width={400}
+      height={300}
+      options={options("deposits")}
+    />
+  );
+};
+
+export {
+  IncomeChart,
+  BookValueChart,
+  TotalAssetsChart,
+  TotalLoansChart,
+  TotalDepositsChart,
+};
