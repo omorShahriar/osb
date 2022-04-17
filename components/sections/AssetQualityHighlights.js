@@ -16,7 +16,7 @@ const AssetQualityHighlights = () => {
   return (
     <Section>
       <SectionTitle>Asset Quality Highlights</SectionTitle>
-      <div className=" grid grid-cols-8 gap-x-20 gap-y-24 mt-24 ">
+      <div className=" grid grid-cols-8 gap-x-20 gap-y-24 mt-24 items-center  ">
         <InView threshold={0.25} triggerOnce>
           {({ ref, inView }) => {
             return (
@@ -25,7 +25,7 @@ const AssetQualityHighlights = () => {
                 initial="hidden"
                 ref={ref}
                 animate={inView ? "visible" : "hidden"}
-                className=" col-span-4 text-justify prose xl:prose-lg"
+                className=" col-span-3 text-justify prose xl:prose-lg"
               >
                 <p className="font-slab text-center tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-emerald-600 to-blue-600">
                   12/31/2021 Loan Portfolio Composition
@@ -46,7 +46,7 @@ const AssetQualityHighlights = () => {
             );
           }}
         </InView>
-        <div className=" col-span-4">
+        <div className=" col-span-5">
           <Image
             alt="loan portfolio composition"
             src={portfolio}
@@ -56,7 +56,7 @@ const AssetQualityHighlights = () => {
             layout="responsive"
           />
         </div>
-        <div className=" col-span-4">
+        <div className=" col-span-5">
           {" "}
           <Image
             alt="Historical loan portfolio totals"
@@ -75,7 +75,7 @@ const AssetQualityHighlights = () => {
                 initial="hidden"
                 ref={ref}
                 animate={inView ? "visible" : "hidden"}
-                className="col-start-5 col-span-4 text-justify  prose xl:prose-lg"
+                className=" col-span-3 text-justify  prose xl:prose-lg"
               >
                 <p className="tracking-wide text-center font-slab text-transparent bg-clip-text bg-gradient-to-br from-emerald-600 to-blue-600">
                   Historical Chart

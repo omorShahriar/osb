@@ -142,15 +142,13 @@ const BoardOfDirectors = () => {
                     HOLLY H. STEPHENSON JOINED IN 2020
                   </h2>
                   <p>
-                    General Partner/Treasurer of Hardigree Properties & Employed
-                    by Walton County Board of Commissioners Holly has a long
-                    history with Oconee State Bank and as a 6th generation
-                    Oconee County native and life-long resident, she has strong
-                    ties in Oconee County. She is a graduate of UGA’s Terry
-                    College of Business, where she earned a BBA in Risk
-                    Management. She proudly serves in many capacities in the
-                    local community, most notably with Oconee County 4-H Club
-                    and Watkinsville First Baptist Church.
+                    General Partner/Treasurer of Hardigree Properties &
+                    currently serves as the County Clerk for the Oconee County
+                    Government, she has strong ties in Oconee County. She is a
+                    graduate of UGA’s Terry College of Business, where she
+                    earned a BBA in Risk Management. She proudly serves in many
+                    capacities in the local community, most notably with Oconee
+                    County 4-H Club and Watkinsville First Baptist Church.
                   </p>
                 </div>
               </motion.div>

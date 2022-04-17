@@ -113,7 +113,7 @@ const CorporateProfile = () => {
                 </h2>
                 <div>
                   {" "}
-                  <p>35 N. Main Street</p>
+                  <p>41 N. Main Street</p>
                   <p>Post Office Box 205</p>
                   <p>Watkinsville, Georgia 30677</p>
                   <p>Telephone: (706) 769-6611</p>
