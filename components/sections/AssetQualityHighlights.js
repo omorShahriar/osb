@@ -16,6 +16,7 @@ const AssetQualityHighlights = () => {
   return (
     <Section>
       <SectionTitle>Asset Quality Highlights</SectionTitle>
+
       <div className=" grid grid-cols-8 gap-x-20 gap-y-24 mt-24 items-center  ">
         <InView threshold={0.25} triggerOnce>
           {({ ref, inView }) => {

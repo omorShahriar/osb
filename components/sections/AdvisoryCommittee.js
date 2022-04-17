@@ -3,7 +3,11 @@ import { InView } from "react-intersection-observer";
 import Section from "../Section";
 import SectionTitle from "../SectionTitle";
 
-import { cardGridVariants, cardVariants } from "animations/variants";
+import {
+  cardGridVariants,
+  cardVariants,
+  blockVariants,
+} from "animations/variants";
 
 const AdvisoryCommittee = () => {
   const data = [
@@ -70,7 +74,32 @@ const AdvisoryCommittee = () => {
   ];
   return (
     <Section>
-      <SectionTitle>Community Advisory Committee</SectionTitle>
+      <div className=" mx-auto mb-12">
+        <SectionTitle>Community Advisory Committee</SectionTitle>
+        <InView threshold={0.5} triggerOnce>
+          {({ ref, inView }) => {
+            return (
+              <motion.p
+                ref={ref}
+                variants={blockVariants}
+                initial="hidden"
+                animate={inView ? "visible" : "hidden"}
+                className=" text-center max-w-[80ch] mx-auto "
+              >
+                Oconee State Bank’s Community Advisory Committees serve as
+                ambassadors of Oconee State Bank, our eyes and ears in the
+                communities we serve, to offer valuable feedback to continually
+                enhance our operations. Each committee is comprised of a diverse
+                group of individuals and businesses from the surrounding Oconee,
+                Athens-Clarke, Gwinnett County communities, and now moving into
+                the Macon community. These committees and individuals serve as a
+                liaison between the local community and the bank.
+              </motion.p>
+            );
+          }}
+        </InView>
+      </div>
+
       <InView threshold={0.25} triggerOnce>
         {({ ref, inView }) => {
           return (
@@ -79,7 +108,7 @@ const AdvisoryCommittee = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className="grid  grid-cols-9 gap-x-14 gap-y-24 mt-16"
+              className="grid  grid-cols-9 gap-x-14 gap-y-24 mt-4"
             >
               <motion.div variants={cardVariants} className="col-span-3 ">
                 <div className=" flex flex-col gap-y-12  ">

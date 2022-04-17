@@ -8,6 +8,10 @@ import { cardGridVariants, cardVariants } from "animations/variants";
 import { InView } from "react-intersection-observer";
 import BankingServicesCard from "./DigitalHighlights/BankingServicesCards";
 import BusinessServicesCards from "./DigitalHighlights/BusinessServicesCards";
+import {
+  BoxSquiggleUp,
+  BoxSquiggleDown,
+} from "./DigitalHighlights/BoxSquiggle";
 
 const DigitalHighlights = () => {
   return (
@@ -21,11 +25,11 @@ const DigitalHighlights = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className=" grid grid-cols-12 gap-4 mt-24 items-center "
+              className=" grid grid-cols-12 gap-4 mt-24  "
             >
               <motion.div
                 variants={cardVariants}
-                className="col-span-7 bg-gradient-to-br from-emerald-600 to-blue-600 rounded-md p-8"
+                className="col-span-6 bg-gradient-to-br from-emerald-600 to-blue-600 rounded-md p-8"
               >
                 <div className="flex flex-col gap-8 ">
                   <BankingServicesCard />
@@ -33,10 +37,18 @@ const DigitalHighlights = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className="col-span-5 h-fit  bg-gradient-to-tr from-blue-600 to-emerald-600 rounded-md p-8  "
+                className="col-span-6 flex flex-col justify-center gap-y-10  "
               >
-                <div className="text-white   flex flex-col gap-8 ">
-                  <BusinessServicesCards />
+                <div className="h-[80px] mx-auto">
+                  <BoxSquiggleUp />
+                </div>
+                <div className="h-fit  bg-gradient-to-tr from-blue-600 to-emerald-600 rounded-md p-8">
+                  <div className="text-white   flex flex-col gap-8 ">
+                    <BusinessServicesCards />
+                  </div>
+                </div>
+                <div className="h-[80px] mx-auto">
+                  <BoxSquiggleDown />
                 </div>
               </motion.div>
             </motion.div>

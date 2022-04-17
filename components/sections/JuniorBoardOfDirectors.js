@@ -70,7 +70,7 @@ import ImageBgBorder from "components/ImageBgBorder";
 const JuniorBoardOfDirectors = () => {
   return (
     <Section>
-      <SectionTitle>JUNIOR BOARD OF DIRECTORS</SectionTitle>
+      <SectionTitle>JUNIOR BOARD OF DIRECTORS 2021-2022</SectionTitle>
       <div className=" prose xl:prose-lg max-w-[120ch] text-center mx-auto mt-10">
         <InView threshold={0.25} triggerOnce>
           {({ ref, inView }) => {

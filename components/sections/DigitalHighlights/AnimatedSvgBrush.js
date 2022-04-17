@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { InView } from "react-intersection-observer";
 
 import { svgVariants, pathVariants } from "animations/variants";
+
 const AnimatedSvgBrush = () => {
   return (
     <InView threshold={0.25}>

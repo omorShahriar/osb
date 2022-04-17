@@ -144,7 +144,7 @@ const BoardOfDirectors = () => {
                   <p>
                     General Partner/Treasurer of Hardigree Properties &
                     currently serves as the County Clerk for the Oconee County
-                    Government, she has strong ties in Oconee County. She is a
+                    Government, Holly has strong ties in Oconee County. She is a
                     graduate of UGA’s Terry College of Business, where she
                     earned a BBA in Risk Management. She proudly serves in many
                     capacities in the local community, most notably with Oconee

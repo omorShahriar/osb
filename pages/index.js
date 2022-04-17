@@ -39,8 +39,8 @@ export default function Home() {
         <Teams />
         <TeamExpansions />
         <ExecutiveLeadership />
-        <AdvisoryCommittee />
         <BoardOfDirectors />
+        <AdvisoryCommittee />
         <JuniorBoardOfDirectors />
         <WhoWeAre />
         <CoreValues />
