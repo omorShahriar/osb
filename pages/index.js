@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 import Header from "components/Header";
-import MapBox from "components/MapBox";
+
 import CorporateProfile from "components/sections/CorporateProfile";
 import PresidentLetter from "components/sections/PresidentLetter";
 import FinancialHighlights from "components/sections/FinancialHighlights";
@@ -17,6 +17,7 @@ import CoreValues from "components/sections/CoreValues";
 import TheRemarkableFoundation from "components/sections/TheRemarkableFoundation";
 import AdvisoryCommittee from "components/sections/AdvisoryCommittee";
 import Footer from "components/Footer";
+import HeroArea from "components/sections/HeroArea";
 
 export default function Home() {
   return (
@@ -27,10 +28,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className=" container mx-auto ">
-        <h1 className=" text-6xl font-slab tracking-wide   text-center mt-12 pb-6  text-transparent bg-clip-text bg-gradient-to-tl from-emerald-600 to-blue-600 ">
-          2021: Expansion, Growth, and Transformation
-        </h1>
-        <MapBox />
+        <HeroArea />
         <CorporateProfile />
         <PresidentLetter />
         <FinancialHighlights />
