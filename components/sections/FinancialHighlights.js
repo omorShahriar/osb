@@ -41,7 +41,7 @@ const FinancialHighlights = () => {
         </div>
       </div>
       <ExecutiveGrid>
-        <div className=" col-span-4 ">
+        <div className=" col-span-12 ">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -57,7 +57,7 @@ const FinancialHighlights = () => {
               );
             }}
           </InView>
-          <div className=" prose xl:prose-lg ">
+          <div className=" prose xl:prose-xl mx-auto ">
             <InView threshold={0.25} triggerOnce>
               {({ ref, inView }) => {
                 return (
@@ -66,9 +66,20 @@ const FinancialHighlights = () => {
                     initial="hidden"
                     ref={ref}
                     animate={inView ? "visible" : "hidden"}
-                    className="block mb-20"
+                    className="block mb-20 relative"
                   >
-                    {" "}
+                    <div className="relative float-right w-[225px] m-10   ">
+                      <ImageBgBorder x={15} y={-15} />
+                      <Image
+                        alt="CFO's image"
+                        src={cfo}
+                        placeholder="blur"
+                        width="852px"
+                        height="1280px"
+                        layout="responsive"
+                        className="  rounded-md  "
+                      />
+                    </div>
                     <p className=" font-semibold ">
                       BALANCE SHEET AND CREDIT QUALITY
                     </p>
@@ -85,6 +96,7 @@ const FinancialHighlights = () => {
                       relationship of our existing and prospective customers to
                       ensure the bank is their primary financial institution.
                     </p>
+
                     <p>
                       Total loans decreased $26 million or 7 percent. However,
                       excluding the effect of loan pay downs from Paycheck
@@ -113,6 +125,7 @@ const FinancialHighlights = () => {
                 );
               }}
             </InView>
+
             <InView threshold={0.25} triggerOnce>
               {({ ref, inView }) => {
                 return (
@@ -163,21 +176,6 @@ const FinancialHighlights = () => {
                 );
               }}
             </InView>
-          </div>
-        </div>
-
-        <div className=" col-start-6 col-span-2  ">
-          <div className="relative">
-            <ImageBgBorder x={15} y={-15} />
-            <Image
-              alt="CFO's image"
-              src={cfo}
-              placeholder="blur"
-              width="852px"
-              height="1280px"
-              layout="responsive"
-              className="  rounded-md "
-            />
           </div>
         </div>
       </ExecutiveGrid>
