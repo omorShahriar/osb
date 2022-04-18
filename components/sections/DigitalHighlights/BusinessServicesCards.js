@@ -78,7 +78,7 @@ const BusinessServicesCards = () => {
               <motion.p variants={listItemVariants}>
                 Processed through Remote Deposit Capture (RDC)
                 <span className=" float-right font-semibold italic ">
-                  $199,665,810.68
+                  $199,665,810
                 </span>
               </motion.p>
               <motion.p variants={listItemVariants}>
@@ -90,26 +90,26 @@ const BusinessServicesCards = () => {
               <motion.p variants={listItemVariants}>
                 Savings through usage of RDC
                 <span className=" float-right font-semibold italic ">
-                  $97,880.02
+                  $97,880
                 </span>
               </motion.p>
               <motion.p variants={listItemVariants}>
                 Processed through ACH Origination
                 <span className=" float-right font-semibold italic ">
-                  $190,163,335.39
+                  $190,163,335
                 </span>
               </motion.p>
               <motion.p variants={listItemVariants}>
                 Revenue generated from various business services
                 <span className=" float-right font-semibold italic ">
-                  $39,547.62
+                  $39,547
                 </span>
               </motion.p>
               <motion.p variants={listItemVariants}>
                 Revenue generated from service charges on <br /> commercial
                 accounts
                 <span className=" float-right font-semibold italic ">
-                  $30,104.43
+                  $30,104
                 </span>
               </motion.p>
             </motion.div>

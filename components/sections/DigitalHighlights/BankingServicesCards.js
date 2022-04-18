@@ -164,7 +164,7 @@ const BankingServicesCard = () => {
                   <div className=" text-center space-y-2 ">
                     <p className=" text-md font-semibold ">Mobile Deposit</p>
                     <p className=" text-2xl  font-bold text-emerald-500">
-                      $24,455,004.94
+                      $24,455,004
                     </p>
                   </div>
                 </div>
@@ -444,7 +444,7 @@ const BankingServicesCard = () => {
                   <div className=" text-center space-y-2 ">
                     <p className=" text-md font-semibold ">Savings</p>
                     <p className=" text-2xl  font-bold text-emerald-500 ">
-                      $15,948.88
+                      $15,948
                     </p>
                   </div>
                 </div>
@@ -553,7 +553,7 @@ const BankingServicesCard = () => {
                       Bill Payments Processed
                     </p>
                     <p className=" text-2xl  font-bold text-emerald-500 ">
-                      $32,974,113.83
+                      $32,974,113
                     </p>
                   </div>
                 </div>
