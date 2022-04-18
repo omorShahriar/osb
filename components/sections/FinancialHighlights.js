@@ -23,20 +23,20 @@ const FinancialHighlights = () => {
   return (
     <Section>
       <SectionTitle>Financial Highlights</SectionTitle>
-      <div className="grid mt-24 grid-cols-12 gap-x-8 gap-y-16">
-        <div className=" col-span-5">
+      <div className="flex mt-24  gap-x-20 gap-y-16 flex-wrap justify-center  ">
+        <div className=" ">
           <IncomeChartBox />
         </div>
-        <div className="  col-start-7 col-span-5">
+        <div className="  ">
           <BookValueChartBox />
         </div>
-        <div className="  col-span-5">
+        <div className="  ">
           <TotalAssetsChartBox />
         </div>
-        <div className="  col-start-7 col-span-5">
+        <div className=" ">
           <TotalLoansChartBox />
         </div>
-        <div className="  col-start-4 col-span-5">
+        <div className="   ">
           <TotalDepositsChartBox />
         </div>
       </div>

@@ -1,7 +1,11 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { InView } from "react-intersection-observer";
 import Section from "../Section";
 import SectionTitle from "../SectionTitle";
+
+import gwinnettCommunityAdvisors from "/public/gwinnett-community-advisors.jpg";
+import athensCommunityAdvisors from "/public/athens-community-advisors.jpg";
 
 import {
   cardGridVariants,
@@ -99,6 +103,54 @@ const AdvisoryCommittee = () => {
           }}
         </InView>
       </div>
+      <InView>
+        {({ ref, inView }) => {
+          return (
+            <motion.div
+              variants={cardGridVariants}
+              initial="hidden"
+              ref={ref}
+              animate={inView ? "visible" : "hidden"}
+              className="my-16 grid grid-cols-2 gap-x-4 items-center"
+            >
+              <motion.div
+                variants={cardVariants}
+                className="col-span-1 relative"
+              >
+                <p className="absolute left-4 bottom-4 text-lg font-semibold text-white z-10">
+                  Gwinnett Community Advisors
+                </p>
+                <Image
+                  alt="Gwinnett community advisors"
+                  src={gwinnettCommunityAdvisors}
+                  placeholder="blur"
+                  width={683}
+                  height={450}
+                  layout="responsive"
+                  className="rounded-md"
+                />
+              </motion.div>
+              <motion.div
+                variants={cardVariants}
+                className="col-span-1 relative"
+              >
+                <p className="absolute right-4 bottom-4 text-lg font-semibold text-white z-10">
+                  Athens Community Advisors
+                </p>
+                <Image
+                  alt="Athens Community Advisors"
+                  src={athensCommunityAdvisors}
+                  placeholder="blur"
+                  width={675}
+                  height={450}
+                  layout="responsive"
+                  className="rounded-md"
+                />
+              </motion.div>
+            </motion.div>
+          );
+        }}
+      </InView>
 
       <InView threshold={0.25} triggerOnce>
         {({ ref, inView }) => {
