@@ -2,181 +2,162 @@ import { motion } from "framer-motion";
 import Section from "../Section";
 import SectionTitle from "../SectionTitle";
 
-//animation
-const listBoxVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      duration: 0.2,
-      when: "beforeChildren",
-      staggerChildren: 0.3,
-    },
-  },
-};
-const listVariants = {
-  hidden: {
-    opacity: 0,
-    x: -15,
-  },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 0.2,
-    },
-  },
-};
-
-const blockBoxVariants = {
-  hidden: {
-    opacity: 0,
-    y: 20,
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      delay: 0.75,
-      duration: 0.5,
-      ease: "easeInOut",
-    },
-  },
-};
-
-import { InView } from "react-intersection-observer";
-
 const CoreValues = () => {
   return (
     <Section>
       <SectionTitle>CORE VALUES</SectionTitle>
-      <div className="grid grid-cols-8 gap-10 mt-24 items-center ">
-        <div className=" col-span-4 ">
-          <InView threshold={0.25} triggerOnce>
-            {({ ref, inView }) => {
-              return (
-                <motion.div
-                  variants={listBoxVariants}
-                  initial="hidden"
-                  ref={ref}
-                  animate={inView ? "visible" : "hidden"}
-                  className="flex flex-col gap-y-10 "
-                >
-                  <motion.div
-                    variants={listVariants}
-                    className=" p-8 border-2 border-slate-200 rounded-md "
-                  >
-                    <div className="prose xl:prose-lg">
-                      {" "}
-                      <h2>Our Vision</h2>
-                      <p>
-                        <em>What are we trying to accomplish?</em>
-                        <br />
-                        To be <strong> essential</strong> to the lives,
-                        businesses and communities we serve.
-                      </p>
-                    </div>
-                  </motion.div>
-                  <motion.div
-                    variants={listVariants}
-                    className=" p-8 border-2 border-slate-200 rounded-md "
-                  >
-                    <div className="prose xl:prose-lg">
-                      {" "}
-                      <h2>Our Mission</h2>
-                      <p>
-                        <em>How will we accomplish our vision?</em>
-                        <br />
-                        Create <strong>remarkable</strong> experiences that
-                        significantly mark the lives of others.
-                      </p>
-                    </div>
-                  </motion.div>
-                </motion.div>
-              );
-            }}
-          </InView>
-        </div>
-        <div className="col-span-4 prose xl:prose-lg">
-          <InView threshold={0.25} triggerOnce>
-            {({ ref, inView }) => {
-              return (
-                <motion.div
-                  variants={blockBoxVariants}
-                  initial="hidden"
-                  ref={ref}
-                  animate={inView ? "visible" : "hidden"}
-                  className="  p-8 rounded-md border-2 border-slate-200"
-                >
-                  <h2>Our Values</h2>
 
-                  <p>
-                    <em>
-                      What is most important to us as we strive to accomplish
-                      our vision?
-                    </em>
-                    <br />
-                    We value . . . <strong>SUCCESS</strong>
-                  </p>
-                  <p>
-                    <strong>
-                      <span className=" underline underline-offset-4 ">S</span>
-                      tewardship
-                    </strong>{" "}
-                    – The privilege of wisely shepherding the resources
-                    entrusted to us
-                  </p>
-                  <p>
-                    <strong>
-                      <span className=" underline underline-offset-4 ">U</span>
-                      nity
-                    </strong>{" "}
-                    – Believing the best in, Expecting the best from, Seeking
-                    the best for, and Telling the best about each other
-                  </p>
-                  <p>
-                    <strong>
-                      <span className=" underline underline-offset-4 ">C</span>
-                      ollaboration
-                    </strong>{" "}
-                    – A culture of teamwork
-                  </p>
-                  <p>
-                    <strong>
-                      <span className=" underline underline-offset-4 ">C</span>
-                      ommunity
-                    </strong>
-                    – Investing in the communities we serve through active
-                    engagement and local decision-making
-                  </p>
-                  <p>
-                    <strong>
-                      <span className=" underline underline-offset-4 ">E</span>
-                      xcellence
-                    </strong>
-                    – Exceptional performance with a long-term perspective
-                  </p>
-                  <p>
-                    <strong>
-                      <span className=" underline underline-offset-4 ">S</span>
-                      ervice
-                    </strong>
-                    – Consistently creating remarkable experiences for our
-                    customers
-                  </p>
-                  <p>
-                    <strong>
-                      <span className=" underline underline-offset-4 ">S</span>
-                      olutions
-                    </strong>
-                    – Empowering our team members to deliver results
-                  </p>
-                </motion.div>
-              );
-            }}
-          </InView>
+      <div className=" grid grid-cols-12    mt-24 ">
+        <div className="col-span-5 pt-40  text-right">
+          <h2>Our Vision</h2>
+          <p>
+            <em>What are we trying to accomplish?</em>
+            <br />
+            To be <strong> essential</strong> to the lives, businesses and
+            communities we serve.
+          </p>
+        </div>
+        <div className=" col-span-2 w-1 mx-auto  ">
+          <svg
+            width="2"
+            height="260"
+            viewBox="0 0 2 260"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              width="2"
+              height="260"
+              rx="1"
+              fill="url(#paint0_linear_151_9)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_151_9"
+                x1="1"
+                y1="0"
+                x2="1"
+                y2="260"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stopColor="#51CF66" stopOpacity="0.25" />
+                <stop offset="0.34375" stopColor="#51CF66" />
+                <stop offset="0.630208" stopColor="#339AF0" />
+                <stop offset="1" stopColor="#339AF0" stopOpacity="0.25" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div className=" col-span-5  pb-20">
+          {" "}
+          <h2>Our Mission</h2>
+          <p>
+            <em>How will we accomplish our vision?</em>
+            <br />
+            Create <strong>remarkable</strong> experiences that significantly
+            mark the lives of others.
+          </p>
+        </div>
+      </div>
+      <div className=" mt-20 ">
+        <div className="  p-8 rounded-md border-2 border-slate-200">
+          <h2 className=" font-slab text-3xl tracking-wider mb-4 text-transparent bg-clip-text bg-gradient-to-tr from-emerald-600 to-blue-600 ">
+            Our Values
+          </h2>
+
+          <p className="mb-12 text-gray-800">
+            <em className="block mb-1 text-slate-700">
+              What is most important to us as we strive to accomplish our
+              vision?
+            </em>
+            We value . . .{" "}
+            <strong className="text-xl  text-transparent bg-clip-text bg-gradient-to-bl from-emerald-600 to-blue-600 ">
+              SUCCESS
+            </strong>
+          </p>
+          <div className="flex flex-col gap-y-4">
+            <div className="grid grid-cols-12  gap-x-4  items-center">
+              <strong className="text-2xl pr-10 text-right  col-span-4">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+                  S
+                </span>
+                tewardship
+              </strong>
+              <p className="col-span-8 text-sm text-gray-700">
+                The privilege of wisely shepherding the resources entrusted to
+                us
+              </p>
+            </div>
+            <div className="grid grid-cols-12  gap-x-4 items-center">
+              <strong className="text-2xl pr-10 text-right col-span-4">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+                  U
+                </span>
+                nity
+              </strong>
+              <p className="col-span-8 text-sm text-gray-700">
+                Believing the best in, Expecting the best from, Seeking the best
+                for, and Telling the best about each other
+              </p>
+            </div>
+            <div className="grid grid-cols-12  gap-x-4 items-center">
+              <strong className="text-2xl pr-10 text-right col-span-4">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+                  C
+                </span>
+                ollaboration
+              </strong>
+              <p className="col-span-8 text-sm text-gray-700">
+                A culture of teamwork
+              </p>
+            </div>
+            <div className="grid grid-cols-12  gap-x-4 items-center">
+              <strong className="text-2xl pr-10 text-right col-span-4">
+                <span className=" underline decoration-wavy decoration-emerald-600  underline-offset-4 ">
+                  C
+                </span>
+                ommunity
+              </strong>
+              <p className="col-span-8 text-sm text-gray-700">
+                Investing in the communities we serve through active engagement
+                and local decision-making
+              </p>
+            </div>
+            <div className="grid grid-cols-12  gap-x-4 items-center">
+              <strong className="text-2xl pr-10 text-right col-span-4">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+                  E
+                </span>
+                xcellence
+              </strong>
+              <p className="col-span-8 text-sm text-gray-700">
+                {" "}
+                Exceptional performance with a long-term perspective
+              </p>
+            </div>
+            <div className="grid grid-cols-12  gap-x-4 items-center">
+              <strong className="text-2xl pr-10 text-right col-span-4">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+                  S
+                </span>
+                ervice
+              </strong>
+              <p className="col-span-8 text-sm text-gray-700">
+                Consistently creating remarkable experiences for our customers
+              </p>
+            </div>
+            <div className="grid grid-cols-12  gap-x-4 items-center">
+              <strong className="text-2xl pr-10 text-right col-span-4">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+                  S
+                </span>
+                olutions
+              </strong>
+              <p className="col-span-8 text-sm text-gray-700">
+                Empowering our team members to deliver results
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </Section>
