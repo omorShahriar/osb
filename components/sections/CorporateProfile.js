@@ -70,7 +70,7 @@ const CorporateProfile = () => {
                   <p>James R. McLemore</p>
                   <p> Executive Vice President & Chief Financial Officer</p>
                   <p>Oconee Financial Corporation</p>
-                  <p>Post Office Box 205</p>
+                  <p>PO Box 205</p>
                   <p> Watkinsville, Georgia 30677</p>
                 </div>
               </motion.div>
@@ -101,7 +101,7 @@ const CorporateProfile = () => {
                   <p> Certified Public Accountants</p>
                   <p>200 Galleria Parkway, S.E.</p>
                   <p>Suite 1700</p>
-                  <p>Atlanta, Georgia 30339-5946</p>
+                  <p>Atlanta, Georgia 30339</p>
                 </div>
               </motion.div>
               <motion.div
@@ -114,10 +114,9 @@ const CorporateProfile = () => {
                 <div>
                   {" "}
                   <p>41 N. Main Street</p>
-                  <p>Post Office Box 205</p>
+                  <p>PO Box 205</p>
                   <p>Watkinsville, Georgia 30677</p>
                   <p>Telephone: (706) 769-6611</p>
-                  <p>Facsimile: (706) 583-3878</p>
                   <p>
                     <a
                       href="https://www.oconeestatebank.com"
