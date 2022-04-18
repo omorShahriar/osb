@@ -13,21 +13,11 @@ const MapBox = () => {
   return (
     <div className=" map-box relative col-span-6">
       <ToolTipBoxG location="Gwinnett" />
-      <ToolTipBoxO location="Oconne" />
+      <ToolTipBoxO location="Athens" />
       <ToolTipBoxM location="Macon" />
-      <ToolTipBoxB location="Bogart" />
-      <ToolTipBoxBC location="Butler's Crossing" />
-      <ToolTipBoxMO location="Main Office" />
-      {/*
-     
-      <ToolTipBox
-        z={10}
-        top={8.25}
-        right={23.75}
-        location="Butler's Crossing"
-      />
-      <ToolTipBox z={10} top={10} right={20.5} location="Main Office" /> */}
-
+      <ToolTipBoxB location="Oconne" />
+      <ToolTipBoxBC location="Oconne" />
+      <ToolTipBoxMO location="Oconne" />
       <Image
         alt="map image"
         src="/report/svg/map.svg"
