@@ -7,6 +7,7 @@ import SectionTitle from "../SectionTitle";
 import marketTeam from "/public/market-team.jpg";
 import gwinnettMarketTeam from "/public/gwinnett-market-team.jpg";
 import athensMarketTeam from "/public/athens-market-team.jpg";
+import maconMarketTeam from "/public/roby-macon.jpg";
 
 //animation
 
@@ -276,6 +277,69 @@ const Teams = () => {
                       className="  rounded-md "
                     />
                   </div>
+                </motion.div>
+              );
+            }}
+          </InView>
+        </div>
+        <div className="col-span-2">
+          <InView threshold={0.25} triggerOnce>
+            {({ ref, inView }) => {
+              return (
+                <motion.div
+                  variants={imageVariants}
+                  initial="hidden"
+                  ref={ref}
+                  animate={inView ? "visible" : "hidden"}
+                >
+                  <div className=" relative ">
+                    <ImageBgBorder x={15} />
+                    <Image
+                      alt="Makon marketing team image"
+                      src={maconMarketTeam}
+                      placeholder="blur"
+                      width={178.5}
+                      height={182}
+                      layout="responsive"
+                      className="  rounded-md "
+                    />
+                  </div>
+                </motion.div>
+              );
+            }}
+          </InView>
+        </div>
+        <div className="col-span-4">
+          <InView threshold={0.25} triggerOnce>
+            {({ ref, inView }) => {
+              return (
+                <motion.div
+                  variants={teamBoxVariants}
+                  initial="hidden"
+                  ref={ref}
+                  animate={inView ? "visible" : "hidden"}
+                  className=" prose xl:prose-lg "
+                >
+                  <motion.p
+                    variants={teamTitleVariants}
+                    className=" font-slab tracking-wide text-transparent bg-clip-text bg-gradient-to-br from-emerald-600 to-blue-600 "
+                  >
+                    Macon Market Team
+                  </motion.p>
+
+                  <motion.blockquote
+                    variants={teamQuoteVariants}
+                    className="text-justify"
+                  >
+                    “Oconee State Bank is excited to bring a new market team to
+                    the Macon and Middle Georgia community. Our goal is to
+                    intentionally build a team made up of remarkable talent
+                    while also working to grow a strong customer base and
+                    identify a location that best serves the area. ”
+                    <span className="block not-italic font-semibold text-sm my-4 text-right">
+                      – Robby Redmond, Macon Market President
+                    </span>
+                  </motion.blockquote>
                 </motion.div>
               );
             }}

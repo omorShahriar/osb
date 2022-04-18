@@ -9,6 +9,7 @@ import sba from "/public/sba.png";
 import financialServices from "/public/state-financial.png";
 import mortgage from "public/mortgage.png";
 import mortgageImage from "public/mortgage-image.jpg";
+
 import { cardGridVariants, cardVariants } from "animations/variants";
 
 import { InView } from "react-intersection-observer";
@@ -31,7 +32,10 @@ const TeamExpansions = () => {
                 variants={cardVariants}
                 className="col-span-4 flex flex-col  gap-y-6 "
               >
-                <div className="logo w-[230px] min-h-[83.5px]">
+                <div className="logo w-[230px] box-content pl-2 pt-4 pr-20 relative min-h-[83.5px]">
+                  <div className="bg-grid absolute inset-0 bg-[url('/report/svg/wiggle.svg')] bg-repeat -z-10 ">
+                    {" "}
+                  </div>
                   <Image
                     alt="Small Business Administration logo"
                     layout="responsive"
@@ -80,7 +84,10 @@ const TeamExpansions = () => {
                 variants={cardVariants}
                 className=" col-span-4 flex flex-col  gap-y-6 "
               >
-                <div className="logo w-[230px]">
+                <div className="logo w-[230px] box-content pl-2 pt-4 pr-20 relative">
+                  <div className="bg-grid absolute inset-0 bg-[url('/report/svg/wiggle.svg')] bg-repeat -z-10 ">
+                    {" "}
+                  </div>
                   <Image
                     alt="Oconee State Financial Services logo"
                     layout="responsive"
@@ -111,7 +118,10 @@ const TeamExpansions = () => {
                 variants={cardVariants}
                 className=" col-span-4 flex flex-col  gap-y-6 "
               >
-                <div className="logo w-[230px]">
+                <div className="logo w-[230px] box-content pl-2 pt-4 pr-20 relative">
+                  <div className="bg-grid absolute inset-0 bg-[url('/report/svg/wiggle.svg')] bg-repeat -z-10 ">
+                    {" "}
+                  </div>
                   <Image
                     alt="Remarkable Mortgage logo"
                     layout="responsive"

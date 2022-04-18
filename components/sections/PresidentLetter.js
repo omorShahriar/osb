@@ -52,9 +52,9 @@ const PresidentLetter = () => {
                     elements:
                   </motion.p>
                   <motion.p variants={cardVariants} className="  mb-12 ">
-                    <div className=" text-osb-green font-semibold text-2xl text-left ">
+                    <span className="block text-osb-green font-semibold text-2xl text-left ">
                       Grow Leaders
-                    </div>
+                    </span>
                     John Maxwell said, “Everything rises and falls on
                     leadership.” Any successful organization has figured out how
                     to grow and develop leaders throughout the entire
@@ -75,9 +75,9 @@ const PresidentLetter = () => {
                     are fanatical about growing and developing leaders.
                   </motion.p>
                   <motion.p variants={cardVariants} className="  mb-12 ">
-                    <div className=" text-osb-green font-semibold text-2xl text-left ">
+                    <span className="block text-osb-green font-semibold text-2xl text-left ">
                       Ignite an Unstoppable Culture
-                    </div>
+                    </span>
                     Every organization has a culture, but not every organization
                     is laser beam focused on intentionally creating a culture
                     that is remarkable. We diligently work to create an
