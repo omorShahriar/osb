@@ -282,7 +282,7 @@ const Teams = () => {
             }}
           </InView>
         </div>
-        <div className="col-span-2">
+        <div className="col-span-3">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (

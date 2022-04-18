@@ -7,14 +7,21 @@ const CoreValues = () => {
     <Section>
       <SectionTitle>CORE VALUES</SectionTitle>
 
-      <div className=" grid grid-cols-12    mt-24 ">
-        <div className="col-span-5 pt-40  text-right">
-          <h2>Our Vision</h2>
-          <p>
-            <em>What are we trying to accomplish?</em>
-            <br />
-            To be <strong> essential</strong> to the lives, businesses and
-            communities we serve.
+      <div className=" grid grid-cols-12 items-center   mt-24 ">
+        <div className="col-span-5   text-right">
+          <h2 className="font-slab text-3xl tracking-wider mb-4 text-transparent bg-clip-text bg-gradient-to-tr from-emerald-600 to-blue-600 ">
+            Our Vision
+          </h2>
+          <p className="mb-12 text-gray-800">
+            <em className="block mb-1 text-slate-700">
+              What are we trying to accomplish?
+            </em>
+            To be{" "}
+            <strong className="text-xl  text-transparent bg-clip-text bg-gradient-to-bl from-emerald-600 to-blue-600 ">
+              {" "}
+              essential
+            </strong>{" "}
+            to the lives, businesses and communities we serve.
           </p>
         </div>
         <div className=" col-span-2 w-1 mx-auto  ">
@@ -48,14 +55,20 @@ const CoreValues = () => {
             </defs>
           </svg>
         </div>
-        <div className=" col-span-5  pb-20">
+        <div className=" col-span-5  ">
           {" "}
-          <h2>Our Mission</h2>
-          <p>
-            <em>How will we accomplish our vision?</em>
-            <br />
-            Create <strong>remarkable</strong> experiences that significantly
-            mark the lives of others.
+          <h2 className="font-slab text-3xl tracking-wider mb-4 text-transparent bg-clip-text bg-gradient-to-tr from-emerald-600 to-blue-600 ">
+            Our Mission
+          </h2>
+          <p className="mb-12 text-gray-800">
+            <em className="block mb-1 text-slate-700">
+              How will we accomplish our vision?
+            </em>
+            Create{" "}
+            <strong className="text-xl  text-transparent bg-clip-text bg-gradient-to-bl from-emerald-600 to-blue-600 ">
+              remarkable
+            </strong>{" "}
+            experiences that significantly mark the lives of others.
           </p>
         </div>
       </div>
@@ -76,9 +89,9 @@ const CoreValues = () => {
             </strong>
           </p>
           <div className="flex flex-col gap-y-4">
-            <div className="grid grid-cols-12  gap-x-4  items-center">
-              <strong className="text-2xl pr-10 text-right  col-span-4">
-                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+            <div className="grid grid-cols-12  gap-x-6  items-center">
+              <strong className="text-2xl   col-span-2">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600 ">
                   S
                 </span>
                 tewardship
@@ -88,9 +101,9 @@ const CoreValues = () => {
                 us
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-4 items-center">
-              <strong className="text-2xl pr-10 text-right col-span-4">
-                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+            <div className="grid grid-cols-12  gap-x-6 items-center">
+              <strong className="text-2xl  col-span-2">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600 ">
                   U
                 </span>
                 nity
@@ -100,9 +113,9 @@ const CoreValues = () => {
                 for, and Telling the best about each other
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-4 items-center">
-              <strong className="text-2xl pr-10 text-right col-span-4">
-                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+            <div className="grid grid-cols-12  gap-x-6 items-center">
+              <strong className="text-2xl  col-span-2">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600 ">
                   C
                 </span>
                 ollaboration
@@ -111,9 +124,9 @@ const CoreValues = () => {
                 A culture of teamwork
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-4 items-center">
-              <strong className="text-2xl pr-10 text-right col-span-4">
-                <span className=" underline decoration-wavy decoration-emerald-600  underline-offset-4 ">
+            <div className="grid grid-cols-12  gap-x-6 items-center">
+              <strong className="text-2xl  col-span-2">
+                <span className=" underline decoration-wavy decoration-emerald-600  underline-offset-4 text-emerald-600 ">
                   C
                 </span>
                 ommunity
@@ -123,9 +136,9 @@ const CoreValues = () => {
                 and local decision-making
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-4 items-center">
-              <strong className="text-2xl pr-10 text-right col-span-4">
-                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+            <div className="grid grid-cols-12  gap-x-6 items-center">
+              <strong className="text-2xl  col-span-2">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600">
                   E
                 </span>
                 xcellence
@@ -135,9 +148,9 @@ const CoreValues = () => {
                 Exceptional performance with a long-term perspective
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-4 items-center">
-              <strong className="text-2xl pr-10 text-right col-span-4">
-                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+            <div className="grid grid-cols-12  gap-x-6 items-center">
+              <strong className="text-2xl  col-span-2">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600">
                   S
                 </span>
                 ervice
@@ -146,9 +159,9 @@ const CoreValues = () => {
                 Consistently creating remarkable experiences for our customers
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-4 items-center">
-              <strong className="text-2xl pr-10 text-right col-span-4">
-                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 ">
+            <div className="grid grid-cols-12  gap-x-6 items-center">
+              <strong className="text-2xl  col-span-2">
+                <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600 ">
                   S
                 </span>
                 olutions
