@@ -60,7 +60,7 @@ const BoardOfDirectors = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className=" grid  grid-cols-8 gap-16 mt-20"
+              className=" grid  grid-cols-8 gap-4 mt-20"
             >
               <motion.div
                 variants={cardVariants}

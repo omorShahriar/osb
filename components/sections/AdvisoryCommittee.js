@@ -103,54 +103,6 @@ const AdvisoryCommittee = () => {
           }}
         </InView>
       </div>
-      <InView>
-        {({ ref, inView }) => {
-          return (
-            <motion.div
-              variants={cardGridVariants}
-              initial="hidden"
-              ref={ref}
-              animate={inView ? "visible" : "hidden"}
-              className="my-16 grid grid-cols-2 gap-x-4 items-center"
-            >
-              <motion.div
-                variants={cardVariants}
-                className="col-span-1 relative"
-              >
-                <p className="absolute left-4 bottom-4 text-lg font-semibold text-white z-10">
-                  Gwinnett Community Advisors
-                </p>
-                <Image
-                  alt="Gwinnett community advisors"
-                  src={gwinnettCommunityAdvisors}
-                  placeholder="blur"
-                  width={683}
-                  height={450}
-                  layout="responsive"
-                  className="rounded-md"
-                />
-              </motion.div>
-              <motion.div
-                variants={cardVariants}
-                className="col-span-1 relative"
-              >
-                <p className="absolute right-4 bottom-4 text-lg font-semibold text-white z-10">
-                  Athens Community Advisors
-                </p>
-                <Image
-                  alt="Athens Community Advisors"
-                  src={athensCommunityAdvisors}
-                  placeholder="blur"
-                  width={675}
-                  height={450}
-                  layout="responsive"
-                  className="rounded-md"
-                />
-              </motion.div>
-            </motion.div>
-          );
-        }}
-      </InView>
 
       <InView threshold={0.25} triggerOnce>
         {({ ref, inView }) => {
@@ -160,7 +112,7 @@ const AdvisoryCommittee = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className="grid  grid-cols-9 gap-x-14 gap-y-24 mt-4"
+              className="grid  grid-cols-9 gap-x-4 gap-y-24 mt-4"
             >
               <motion.div variants={cardVariants} className="col-span-3 ">
                 <div className=" flex flex-col gap-y-12  ">
@@ -181,7 +133,10 @@ const AdvisoryCommittee = () => {
                   </ul>
                 </div>
               </motion.div>
-              <motion.div variants={cardVariants} className="col-span-3">
+              <motion.div
+                variants={cardVariants}
+                className="col-span-3 flex flex-col gap-y-24"
+              >
                 <div className=" flex flex-col gap-y-12  ">
                   <h2 className="text-3xl font-semibold text-osb-green">
                     {data[1].title}
@@ -199,8 +154,6 @@ const AdvisoryCommittee = () => {
                     })}
                   </ul>
                 </div>
-              </motion.div>
-              <motion.div variants={cardVariants} className="col-span-3">
                 <div className=" flex flex-col gap-y-12   ">
                   <h2 className="text-3xl font-semibold text-osb-green">
                     {data[2].title}
@@ -218,6 +171,56 @@ const AdvisoryCommittee = () => {
                     })}
                   </ul>
                 </div>
+              </motion.div>
+              <motion.div variants={cardVariants} className="col-span-3">
+                <InView>
+                  {({ ref, inView }) => {
+                    return (
+                      <motion.div
+                        variants={cardGridVariants}
+                        initial="hidden"
+                        ref={ref}
+                        animate={inView ? "visible" : "hidden"}
+                        className=" grid grid-cols-2 gap-y-4 items-center"
+                      >
+                        <motion.div
+                          variants={cardVariants}
+                          className="col-span-2 relative"
+                        >
+                          <p className="absolute left-4 bottom-4 text-lg font-semibold  z-10 text-white text-shadow  ">
+                            Gwinnett Community Advisors
+                          </p>
+                          <Image
+                            alt="Gwinnett community advisors"
+                            src={gwinnettCommunityAdvisors}
+                            placeholder="blur"
+                            width={683}
+                            height={450}
+                            layout="responsive"
+                            className="rounded-md"
+                          />
+                        </motion.div>
+                        <motion.div
+                          variants={cardVariants}
+                          className="col-span-2 relative"
+                        >
+                          <p className="absolute right-4 bottom-4 text-lg font-semibold  z-10  text-white text-shadow ">
+                            Athens/Oconee Community Advisors
+                          </p>
+                          <Image
+                            alt="Athens Community Advisors"
+                            src={athensCommunityAdvisors}
+                            placeholder="blur"
+                            width={675}
+                            height={450}
+                            layout="responsive"
+                            className="rounded-md"
+                          />
+                        </motion.div>
+                      </motion.div>
+                    );
+                  }}
+                </InView>
               </motion.div>
             </motion.div>
           );

@@ -24,20 +24,347 @@ const FinancialHighlights = () => {
     <Section>
       <SectionTitle>Financial Highlights</SectionTitle>
       <div className="flex mt-24  gap-x-20 gap-y-16 flex-wrap justify-center  ">
-        <div className=" ">
+        <div className=" w-full flex justify-center gap-x-20 items-center ">
           <IncomeChartBox />
+          <div className="flex flex-col ">
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200 ">
+                2014
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $1,563,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2015
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $1,945,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2016
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $2,515,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2017
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                {" "}
+                $1,920,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2018
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                {" "}
+                $1,737,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2019
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                {" "}
+                $3,759,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2020
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                {" "}
+                $1,889,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2021
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                {" "}
+                $3,000,000
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="  ">
+        <div className="  w-full flex justify-center gap-x-20 items-center ">
           <BookValueChartBox />
+          <div className="flex flex-col min-w-[355px] ">
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200 ">
+                2014
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $29.67
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2015
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $31.48
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2016
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $31.88
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2017
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $34.07
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2018
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $34.10
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2019
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $39.82
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2020
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $42.56
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2021
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $43.88
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="  ">
+        <div className=" w-full flex justify-center gap-x-20 items-center ">
           <TotalAssetsChartBox />
+          <div className="flex flex-col  ">
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2015
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $298,588,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2016
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $335,397,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2017
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $355,028,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2018
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $349,811,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2019
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $399,521,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2020
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $494,536,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2021
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $571,142,000
+              </div>
+            </div>
+          </div>
         </div>
-        <div className=" ">
+        <div className=" w-full flex justify-center gap-x-20 items-center">
           <TotalLoansChartBox />
+          <div className="flex flex-col  ">
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2014
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $131,739,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2015
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $139,077,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2016
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $146,482,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2017
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $169,235,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2018
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $224,240,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2019
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $253,165,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2020
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $330,034,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2021
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $303,736,000
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="   ">
+        <div className="  w-full flex justify-center gap-x-20 items-center ">
           <TotalDepositsChartBox />
+          <div className="flex flex-col  ">
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2014
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $256,191,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2015
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $269,350,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2016
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $306,560,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2017
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $324,096,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2018
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $318,497,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2019
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $361,523,000
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2020
+              </div>
+              <div className=" p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                $444,702,063
+              </div>
+            </div>
+            <div className=" grid grid-cols-2  ">
+              <div className=" p-2 border-r-2 border-b-2 border-emerald-200">
+                2021
+              </div>
+              <div className="text-center p-2 pl-4 pr-20 border-b-2 border-b-emerald-200 ">
+                -
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <ExecutiveGrid>
