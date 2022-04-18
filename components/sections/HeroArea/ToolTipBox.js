@@ -16,18 +16,117 @@ const boxVariants = {
     },
   },
 };
-const ToolTipBox = ({
-  z = 0,
-  top = 0,
-  left = 0,
-  right = 0,
-  location = "any",
-}) => {
+const ToolTipBoxG = ({ location = "any" }) => {
   const [show, setShow] = useState(false);
   return (
     <motion.div
       whileHover={{ zIndex: 100 }}
-      className={`absolute z-${z} top-[${top}%] left-[${left}%] right-[${right}%]`}
+      className={`absolute z-10 top-[25%] left-[30%] `}
+    >
+      <motion.div
+        variants={boxVariants}
+        initial="rest"
+        whileHover="moved"
+        whileTap={{ scale: 1.3 }}
+        onTap={(e) => setShow((show) => !show)}
+        className=" cursor-pointer "
+      >
+        <ToolTip />
+      </motion.div>
+      <LocationBox location={location} show={show} />
+    </motion.div>
+  );
+};
+const ToolTipBoxO = ({ location = "any" }) => {
+  const [show, setShow] = useState(false);
+  return (
+    <motion.div
+      whileHover={{ zIndex: 100 }}
+      className={`absolute z-10 top-[23%] left-[45%] `}
+    >
+      <motion.div
+        variants={boxVariants}
+        initial="rest"
+        whileHover="moved"
+        whileTap={{ scale: 1.3 }}
+        onTap={(e) => setShow((show) => !show)}
+        className=" cursor-pointer "
+      >
+        <ToolTip />
+      </motion.div>
+      <LocationBox location={location} show={show} />
+    </motion.div>
+  );
+};
+const ToolTipBoxM = ({ location = "any" }) => {
+  const [show, setShow] = useState(false);
+  return (
+    <motion.div
+      whileHover={{ zIndex: 100 }}
+      className={`absolute z-10 top-[48%] left-[42%] `}
+    >
+      <motion.div
+        variants={boxVariants}
+        initial="rest"
+        whileHover="moved"
+        whileTap={{ scale: 1.3 }}
+        onTap={(e) => setShow((show) => !show)}
+        className=" cursor-pointer "
+      >
+        <ToolTip />
+      </motion.div>
+      <LocationBox location={location} show={show} />
+    </motion.div>
+  );
+};
+const ToolTipBoxB = ({ location = "any" }) => {
+  const [show, setShow] = useState(false);
+  return (
+    <motion.div
+      whileHover={{ zIndex: 100 }}
+      className={`absolute z-10 top-[7%] right-[28%] `}
+    >
+      <motion.div
+        variants={boxVariants}
+        initial="rest"
+        whileHover="moved"
+        whileTap={{ scale: 1.3 }}
+        onTap={(e) => setShow((show) => !show)}
+        className=" cursor-pointer "
+      >
+        <ToolTip />
+      </motion.div>
+      <LocationBox location={location} show={show} />
+    </motion.div>
+  );
+};
+const ToolTipBoxBC = ({ location = "any" }) => {
+  const [show, setShow] = useState(false);
+  return (
+    <motion.div
+      whileHover={{ zIndex: 100 }}
+      className={`absolute z-10 top-[8.25%] right-[23.75%] `}
+    >
+      <motion.div
+        variants={boxVariants}
+        initial="rest"
+        whileHover="moved"
+        whileTap={{ scale: 1.3 }}
+        onTap={(e) => setShow((show) => !show)}
+        className=" cursor-pointer "
+      >
+        <ToolTip />
+      </motion.div>
+      <LocationBox location={location} show={show} />
+    </motion.div>
+  );
+};
+const ToolTipBoxMO = ({ location = "any" }) => {
+  const [show, setShow] = useState(false);
+  return (
+    <motion.div
+      whileHover={{ zIndex: 100 }}
+      className={`absolute z-10 top-[10%] right-[20.5%] `}
     >
       <motion.div
         variants={boxVariants}
@@ -44,4 +143,11 @@ const ToolTipBox = ({
   );
 };
 
-export default ToolTipBox;
+export {
+  ToolTipBoxG,
+  ToolTipBoxO,
+  ToolTipBoxM,
+  ToolTipBoxB,
+  ToolTipBoxBC,
+  ToolTipBoxMO,
+};
