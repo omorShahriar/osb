@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { InView } from "react-intersection-observer";
-import AnimatedSvgBrush from "./AnimatedSvgBrush";
 
 const cardTitleVariants = {
   hidden: {
@@ -79,10 +78,7 @@ const BankingServicesCard = () => {
                 variants={cardItemVariants}
                 className="col-span-6 relative bg-white rounded-md p-4 "
               >
-                <div className="absolute inset-0 overflow-clip rounded-md ">
-                  <AnimatedSvgBrush />
-                </div>
-                <div className="relative z-10 flex flex-col gap-8">
+                <div className="relative flex flex-col gap-8">
                   <div className="icon mx-auto relative">
                     <svg
                       width="43.41"
@@ -177,10 +173,7 @@ const BankingServicesCard = () => {
                 variants={cardItemVariants}
                 className="col-span-6 bg-white relative rounded-md p-4 "
               >
-                <div className="absolute inset-0 overflow-clip rounded-md ">
-                  <AnimatedSvgBrush />
-                </div>
-                <div className="relative z-10 flex flex-col gap-8">
+                <div className=" flex flex-col gap-8">
                   <div className="icon mx-auto relative">
                     <svg
                       width="80"
@@ -287,10 +280,7 @@ const BankingServicesCard = () => {
                 variants={cardItemVariants}
                 className="col-span-6 bg-white relative rounded-md p-4 "
               >
-                <div className="absolute inset-0 overflow-clip rounded-md ">
-                  <AnimatedSvgBrush />
-                </div>
-                <div className="relative z-10 flex flex-col gap-8">
+                <div className="  flex flex-col gap-8">
                   <div className="icon mx-auto relative">
                     <svg
                       width="43.45"
@@ -463,10 +453,7 @@ const BankingServicesCard = () => {
                 variants={cardItemVariants}
                 className="col-span-6 bg-white relative rounded-md p-4 "
               >
-                <div className="absolute inset-0 overflow-clip rounded-md ">
-                  <AnimatedSvgBrush />
-                </div>
-                <div className="relative z-10 flex flex-col gap-8">
+                <div className=" flex flex-col gap-8">
                   <div className="icon mx-auto relative">
                     <svg
                       width="67.36"
@@ -575,10 +562,7 @@ const BankingServicesCard = () => {
                 variants={cardItemVariants}
                 className="col-start-4 col-span-6 bg-white relative rounded-md p-4 "
               >
-                <div className="absolute inset-0 overflow-clip rounded-md ">
-                  <AnimatedSvgBrush />
-                </div>
-                <div className="relative z-10 flex flex-col gap-8">
+                <div className=" flex flex-col gap-8">
                   <div className="icon mx-auto relative">
                     <svg
                       width="51.54"
