@@ -13,7 +13,7 @@ const IncomeChartBox = () => {
     threshold: 0.5,
   });
   return (
-    <div ref={inViewRef} style={{ height: 300 }}>
+    <div ref={inViewRef} style={{ height: 400 }}>
       {showChart && <IncomeChart />}
     </div>
   );
@@ -24,7 +24,7 @@ const BookValueChartBox = () => {
     threshold: 0.5,
   });
   return (
-    <div ref={inViewRef} style={{ height: 300 }}>
+    <div ref={inViewRef} style={{ height: 400 }}>
       {showChart && <BookValueChart />}
     </div>
   );
@@ -35,7 +35,7 @@ const TotalAssetsChartBox = () => {
     threshold: 0.5,
   });
   return (
-    <div ref={inViewRef} style={{ height: 300 }}>
+    <div ref={inViewRef} style={{ height: 400 }}>
       {showChart && <TotalAssetsChart />}
     </div>
   );
@@ -46,7 +46,7 @@ const TotalLoansChartBox = () => {
     threshold: 0.5,
   });
   return (
-    <div ref={inViewRef} style={{ height: 300 }}>
+    <div ref={inViewRef} style={{ height: 400 }}>
       {showChart && <TotalLoansChart />}
     </div>
   );
@@ -57,7 +57,7 @@ const TotalDepositsChartBox = () => {
     threshold: 0.5,
   });
   return (
-    <div ref={inViewRef} style={{ height: 300 }}>
+    <div ref={inViewRef} style={{ height: 400 }}>
       {showChart && <TotalDepositsChart />}
     </div>
   );

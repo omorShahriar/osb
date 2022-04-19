@@ -23,8 +23,8 @@ const FinancialHighlights = () => {
   return (
     <Section>
       <SectionTitle>Financial Highlights</SectionTitle>
-      <div className="flex mt-24  gap-x-20 gap-y-16 flex-wrap justify-center  ">
-        <div className=" w-full flex justify-center gap-x-20 items-center ">
+      <div className="flex md:mt-24 mt-20 md:gap-x-20 md:gap-y-16 gap-y-12 flex-wrap justify-center  ">
+        <div className=" w-full flex justify-center md:gap-x-20 md:gap-y-0 gap-y-6 flex-wrap items-center ">
           <IncomeChartBox />
           <div className="flex flex-col ">
             <div className=" grid grid-cols-2  ">
@@ -98,7 +98,7 @@ const FinancialHighlights = () => {
             </div>
           </div>
         </div>
-        <div className="  w-full flex justify-center gap-x-20 items-center ">
+        <div className="  w-full flex justify-center md:gap-x-20 md:gap-y-0 gap-y-6 flex-wrap items-center ">
           <BookValueChartBox />
           <div className="flex flex-col min-w-[355px] ">
             <div className=" grid grid-cols-2  ">
@@ -167,7 +167,7 @@ const FinancialHighlights = () => {
             </div>
           </div>
         </div>
-        <div className=" w-full flex justify-center gap-x-20 items-center ">
+        <div className=" w-full flex justify-center md:gap-x-20 md:gap-y-0 gap-y-6 flex-wrap items-center ">
           <TotalAssetsChartBox />
           <div className="flex flex-col  ">
             <div className=" grid grid-cols-2  ">
@@ -228,7 +228,7 @@ const FinancialHighlights = () => {
             </div>
           </div>
         </div>
-        <div className=" w-full flex justify-center gap-x-20 items-center">
+        <div className=" w-full flex justify-center md:gap-x-20 md:gap-y-0 gap-y-6 flex-wrap items-center">
           <TotalLoansChartBox />
           <div className="flex flex-col  ">
             <div className=" grid grid-cols-2  ">
@@ -297,7 +297,7 @@ const FinancialHighlights = () => {
             </div>
           </div>
         </div>
-        <div className="  w-full flex justify-center gap-x-20 items-center ">
+        <div className="  w-full flex justify-center md:gap-x-20 md:gap-y-0 gap-y-6  flex-wrap items-center ">
           <TotalDepositsChartBox />
           <div className="flex flex-col  ">
             <div className=" grid grid-cols-2  ">
@@ -368,7 +368,7 @@ const FinancialHighlights = () => {
         </div>
       </div>
       <ExecutiveGrid>
-        <div className=" col-span-12 ">
+        <div className=" col-span-7 ">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -377,7 +377,7 @@ const FinancialHighlights = () => {
                   initial="hidden"
                   ref={ref}
                   animate={inView ? "visible" : "hidden"}
-                  className="text-3xl text-center font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-20 "
+                  className="md:text-3xl text-xl text-center font-slab tracking-wider text-transparent bg-clip-text bg-gradient-to-tr from-green-500 to-blue-500 mb-20 "
                 >
                   Notes from our CFO, Jim McLemore
                 </motion.h2>
@@ -393,9 +393,9 @@ const FinancialHighlights = () => {
                     initial="hidden"
                     ref={ref}
                     animate={inView ? "visible" : "hidden"}
-                    className="block mb-20 relative"
+                    className="block mb-20 relative text-justify"
                   >
-                    <div className="relative float-right w-[225px] m-10   ">
+                    <div className="relative md:float-right w-[225px] md:m-10 mx-auto  ">
                       <ImageBgBorder x={15} y={-15} />
                       <Image
                         alt="CFO's image"
@@ -407,7 +407,7 @@ const FinancialHighlights = () => {
                         className="  rounded-md  "
                       />
                     </div>
-                    <p className=" font-semibold ">
+                    <p className="mt-16 md:mt-0 font-semibold ">
                       BALANCE SHEET AND CREDIT QUALITY
                     </p>
                     <p>
@@ -461,7 +461,7 @@ const FinancialHighlights = () => {
                     initial="hidden"
                     ref={ref}
                     animate={inView ? "visible" : "hidden"}
-                    className="block"
+                    className="block text-justify"
                   >
                     <p className=" font-semibold ">2021 Results</p>
                     <p>

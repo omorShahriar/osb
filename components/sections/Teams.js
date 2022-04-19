@@ -76,8 +76,8 @@ const Teams = () => {
   return (
     <Section>
       <SectionTitle>Market Teams</SectionTitle>
-      <div className=" grid grid-cols-8 gap-x-[48px] gap-y-52 mt-24 items-center">
-        <div className="col-span-4">
+      <div className=" grid grid-cols-8 md:gap-x-[48px] md:gap-y-52 gap-y-6 md:mt-24 mt-20 items-center">
+        <div className="md:col-span-4 col-span-8 md:order-0 -order-7">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -97,7 +97,7 @@ const Teams = () => {
 
                   <motion.blockquote
                     variants={teamQuoteVariants}
-                    className="text-justify"
+                    className="text-justify md:mb-0 mb-20"
                   >
                     “As a team, we have grown leaps and bounds over the last
                     year. We have successfully managed a loan portfolio of
@@ -126,7 +126,7 @@ const Teams = () => {
                 initial="hidden"
                 ref={ref}
                 animate={inView ? "visible" : "hidden"}
-                className="col-span-4"
+                className="md:col-span-4 md:col-start-1 col-start-2 col-span-6 md:order-0 -order-8"
               >
                 <div className=" relative ">
                   <ImageBgBorder x={15} />
@@ -144,7 +144,7 @@ const Teams = () => {
             );
           }}
         </InView>
-        <div className="col-span-4">
+        <div className="md:col-span-4 md:col-start-1 col-start-2 col-span-6 md:order-0 -order-6">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -172,7 +172,7 @@ const Teams = () => {
           </InView>
         </div>
 
-        <div className="col-span-4">
+        <div className="md:col-span-4 col-span-8 md:order-0 -order-5">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -192,7 +192,7 @@ const Teams = () => {
 
                   <motion.blockquote
                     variants={teamQuoteVariants}
-                    className="text-justify"
+                    className="text-justify md:mb-0 mb-20"
                   >
                     “The Gwinnett Team had a great 2021 with many
                     accomplishments. We moved into our new permanent location in
@@ -217,7 +217,7 @@ const Teams = () => {
             }}
           </InView>
         </div>
-        <div className="col-span-4">
+        <div className="md:col-span-4 col-span-8 md:order-0 -order-3">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -237,7 +237,7 @@ const Teams = () => {
 
                   <motion.blockquote
                     variants={teamQuoteVariants}
-                    className="text-justify"
+                    className="text-justify md:mb-0 mb-20"
                   >
                     “In 2021, we became a full service depository location while
                     hitting internal milestones for asset growth and cash
@@ -255,7 +255,7 @@ const Teams = () => {
             }}
           </InView>
         </div>
-        <div className="col-span-4">
+        <div className="md:col-span-4 md:col-start-1 col-start-2  col-span-6 md:order-0 -order-4">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -282,7 +282,7 @@ const Teams = () => {
             }}
           </InView>
         </div>
-        <div className="col-span-3">
+        <div className="md:col-span-3 md:col-start-1 col-start-2 col-span-6">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -309,7 +309,7 @@ const Teams = () => {
             }}
           </InView>
         </div>
-        <div className="col-span-4">
+        <div className="md:col-span-4 col-span-8">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -329,7 +329,7 @@ const Teams = () => {
 
                   <motion.blockquote
                     variants={teamQuoteVariants}
-                    className="text-justify"
+                    className="text-justify md:mb-0 mb-20"
                   >
                     “Oconee State Bank is excited to bring a new market team to
                     the Macon and Middle Georgia community. Our goal is to

@@ -16,8 +16,8 @@ const PresidentLetter = () => {
   return (
     <Section>
       <SectionTitle>President’s Letter: A Note from Neil</SectionTitle>
-      <div className="grid grid-cols-12 gap-x-10 mt-24">
-        <div className="  col-span-3  ">
+      <div className="grid grid-cols-12 md:gap-x-10 md:gap-y-0 gap-y-10 mt-24">
+        <div className="  md:col-span-3 col-span-8 md:col-start-1 col-start-3  ">
           <div className="relative">
             <ImageBgBorder />
             <Image
@@ -31,7 +31,7 @@ const PresidentLetter = () => {
             />
           </div>
         </div>
-        <div className="col-start-4 col-span-8  ">
+        <div className="md:col-start-4 md:col-span-8 col-span-12 ">
           <InView threshold={0.25} triggerOnce>
             {({ ref, inView }) => {
               return (
@@ -40,19 +40,22 @@ const PresidentLetter = () => {
                   variants={cardGridVariants}
                   initial="hidden"
                   animate={inView ? "visible" : "hidden"}
-                  className=" columns-3 text-justify"
+                  className=" md:columns-3  text-justify"
                 >
                   {" "}
                   <motion.p
                     variants={cardVariants}
-                    className=" text-center font-semibold text-3xl mb-8 p-4 bg-slate-100 rounded-md "
+                    className=" text-center font-semibold md:text-3xl text-lg mb-8 p-4 bg-slate-100 rounded-md "
                   >
                     A few days ago, someone asked me, “What are the keys to
                     building a stronger bank?” My answer was these 3 essential
                     elements:
                   </motion.p>
-                  <motion.p variants={cardVariants} className="  mb-12 ">
-                    <span className="block text-osb-green font-semibold text-2xl text-left ">
+                  <motion.p
+                    variants={cardVariants}
+                    className="md:text-base text-sm  mb-12 "
+                  >
+                    <span className="block text-osb-green font-semibold md:text-2xl text-xl text-left mb-2">
                       Grow Leaders
                     </span>
                     John Maxwell said, “Everything rises and falls on
@@ -74,8 +77,11 @@ const PresidentLetter = () => {
                     leaders from the bottom to the top. At Oconee State Bank, we
                     are fanatical about growing and developing leaders.
                   </motion.p>
-                  <motion.p variants={cardVariants} className="  mb-12 ">
-                    <span className="block text-osb-green font-semibold text-2xl text-left ">
+                  <motion.p
+                    variants={cardVariants}
+                    className=" md:text-base text-sm mb-12 "
+                  >
+                    <span className="block text-osb-green font-semibold  text-left mb-2 md:text-2xl text-xl">
                       Ignite an Unstoppable Culture
                     </span>
                     Every organization has a culture, but not every organization
@@ -102,8 +108,11 @@ const PresidentLetter = () => {
                     fanatical about igniting a culture that is intentional and
                     unstoppable and where team members thrive.
                   </motion.p>
-                  <motion.p variants={cardVariants} className=" mb-8 ">
-                    <span className=" text-osb-green block font-semibold text-2xl text-left ">
+                  <motion.p
+                    variants={cardVariants}
+                    className=" md:text-base text-sm mb-8 "
+                  >
+                    <span className=" text-osb-green block font-semibold md:text-2xl text-xl text-left mb-2 ">
                       Execute with Excellence
                     </span>
                     Great companies develop a great strategy and execute it with
@@ -121,7 +130,7 @@ const PresidentLetter = () => {
                   </motion.p>
                   <motion.p
                     variants={cardVariants}
-                    className="text-center  font-semibold text-3xl  mb-8 p-4 bg-slate-100 rounded-md "
+                    className="text-center  font-semibold md:text-3xl text-lg  mb-8 p-4 bg-slate-100 rounded-md "
                   >
                     At OSB, we envision a banking world where our customers and
                     community are served by a team whose passion and purpose is

@@ -57,7 +57,7 @@ const BankingServicesCard = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className="text-white text-3xl font-semibold"
+              className="text-white md:text-3xl text-xl md:text-left text-center font-semibold"
             >
               eBanking Services
             </motion.h2>
@@ -72,11 +72,11 @@ const BankingServicesCard = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className=" grid grid-cols-12 gap-4 "
+              className=" grid grid-cols-12 md:gap-4 gap-y-2 "
             >
               <motion.div
                 variants={cardItemVariants}
-                className="col-span-6 relative bg-white rounded-md p-4 "
+                className="md:col-span-6 col-span-12 relative bg-white rounded-md p-4 "
               >
                 <div className="relative flex flex-col gap-8">
                   <div className="icon mx-auto relative">
@@ -171,7 +171,7 @@ const BankingServicesCard = () => {
               </motion.div>
               <motion.div
                 variants={cardItemVariants}
-                className="col-span-6 bg-white relative rounded-md p-4 "
+                className="md:col-span-6 col-span-12  bg-white relative rounded-md p-4 "
               >
                 <div className=" flex flex-col gap-8">
                   <div className="icon mx-auto relative">
@@ -278,7 +278,7 @@ const BankingServicesCard = () => {
               </motion.div>
               <motion.div
                 variants={cardItemVariants}
-                className="col-span-6 bg-white relative rounded-md p-4 "
+                className="md:col-span-6 col-span-12  bg-white relative rounded-md p-4 "
               >
                 <div className="  flex flex-col gap-8">
                   <div className="icon mx-auto relative">
@@ -451,7 +451,7 @@ const BankingServicesCard = () => {
               </motion.div>
               <motion.div
                 variants={cardItemVariants}
-                className="col-span-6 bg-white relative rounded-md p-4 "
+                className="md:col-span-6 col-span-12  bg-white relative rounded-md p-4 "
               >
                 <div className=" flex flex-col gap-8">
                   <div className="icon mx-auto relative">
@@ -560,7 +560,7 @@ const BankingServicesCard = () => {
               </motion.div>
               <motion.div
                 variants={cardItemVariants}
-                className="col-start-4 col-span-6 bg-white relative rounded-md p-4 "
+                className="md:col-start-4 md:col-span-6 col-span-12  bg-white relative rounded-md p-4 "
               >
                 <div className=" flex flex-col gap-8">
                   <div className="icon mx-auto relative">

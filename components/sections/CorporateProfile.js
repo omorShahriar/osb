@@ -8,6 +8,12 @@ import {
   cardVariants,
 } from "animations/variants";
 
+const Heading = ({ children }) => {
+  <h2 className=" md:text-2xl text-xl font-semibold capitalize text-osb-lightBlue ">
+    {children}
+  </h2>;
+};
+
 const CorporateProfile = () => {
   return (
     <Section>
@@ -22,7 +28,7 @@ const CorporateProfile = () => {
                 variants={blockVariants}
                 initial="hidden"
                 animate={inView ? "visible" : "hidden"}
-                className=" text-center max-w-[80ch] mx-auto "
+                className=" text-center md:text-base text-sm max-w-[80ch] mx-auto "
               >
                 Oconee State Bank is a community-oriented commercial bank,
                 headquartered in Oconee County, Georgia, with two full-service
@@ -42,13 +48,13 @@ const CorporateProfile = () => {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={cardGridVariants}
-              className="  grid grid-cols-12 gap-12   pt-4 max-w-fit px-8 mx-auto text-center "
+              className="  grid grid-cols-12 md:gap-12 gap-x-0 gap-y-12 justify-items-center   pt-4 md:max-w-fit  md:px-8 px-0 mx-auto text-center "
             >
               <motion.div
                 variants={cardVariants}
-                className=" col-span-4  flex flex-col gap-4 "
+                className=" md:col-span-4 col-span-12  flex flex-col  gap-4   "
               >
-                <h2 className=" text-2xl font-semibold capitalize text-osb-lightBlue ">
+                <h2 className=" md:text-2xl text-xl font-semibold capitalize text-osb-lightBlue ">
                   ANNUAL MEETING
                 </h2>
                 <div>
@@ -61,9 +67,9 @@ const CorporateProfile = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className="col-span-4  flex flex-col gap-4   "
+                className="md:col-span-4 col-span-12  flex flex-col flex-wrap gap-4   "
               >
-                <h2 className="text-2xl font-semibold capitalize text-osb-lightBlue ">
+                <h2 className=" md:text-2xl text-xl font-semibold capitalize text-osb-lightBlue ">
                   INVESTOR RELATIONS
                 </h2>
                 <div>
@@ -76,9 +82,9 @@ const CorporateProfile = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className="col-span-4 flex flex-col gap-4  "
+                className="md:col-span-4 col-span-12 flex flex-col  flex-wrap gap-4  "
               >
-                <h2 className="text-2xl font-semibold capitalize text-osb-lightBlue ">
+                <h2 className=" md:text-2xl text-xl font-semibold capitalize text-osb-lightBlue ">
                   TRANSFER AGENT
                 </h2>
                 <div>
@@ -91,9 +97,9 @@ const CorporateProfile = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className=" col-start-3 col-span-4  flex flex-col gap-4  "
+                className=" md:col-start-3 md:col-span-4 col-span-12 flex flex-col flex-wrap  gap-4  "
               >
-                <h2 className="text-2xl font-semibold capitalize text-osb-lightBlue  ">
+                <h2 className=" md:text-2xl text-xl   font-semibold capitalize text-osb-lightBlue ">
                   INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM
                 </h2>
                 <div>
@@ -106,9 +112,9 @@ const CorporateProfile = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className=" col-start-7 col-span-4  flex flex-col gap-4  justify-between"
+                className=" md:col-start-7 md:col-span-4 col-span-12 flex flex-col  gap-4 flex-wrap max-w-fit  justify-between"
               >
-                <h2 className="text-2xl font-semibold capitalize text-osb-lightBlue l  ">
+                <h2 className=" md:text-2xl text-xl font-semibold capitalize text-osb-lightBlue ">
                   OCONEE FINANCIAL CORPORATION
                 </h2>
                 <div>

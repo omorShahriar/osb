@@ -283,8 +283,8 @@ const IncomeChart = () => {
   return (
     <Bar
       data={incomeData}
-      width={400}
-      height={300}
+      width={350}
+      height={250}
       options={options("income")}
     />
   );
@@ -293,8 +293,8 @@ const BookValueChart = () => {
   return (
     <Bar
       data={bookValueData}
-      width={400}
-      height={300}
+      width={350}
+      height={250}
       options={options("bookValue")}
     />
   );
@@ -303,8 +303,8 @@ const TotalAssetsChart = () => {
   return (
     <Bar
       data={totalAssetsData}
-      width={400}
-      height={300}
+      width={350}
+      height={250}
       options={options("assets")}
     />
   );
@@ -313,8 +313,8 @@ const TotalLoansChart = () => {
   return (
     <Bar
       data={totalLoansData}
-      width={400}
-      height={300}
+      width={350}
+      height={250}
       options={options("loans")}
     />
   );
@@ -323,8 +323,8 @@ const TotalDepositsChart = () => {
   return (
     <Bar
       data={totalDepositsData}
-      width={400}
-      height={300}
+      width={350}
+      height={250}
       options={options("deposits")}
     />
   );

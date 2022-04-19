@@ -46,7 +46,7 @@ const SectionTitle = ({ children }) => {
                 variants={headingVariants}
                 initial="hidden"
                 animate={inView ? "visible" : "hidden"}
-                className="text-5xl font-bold capitalize text-center py-8 text-transparent bg-clip-text bg-gradient-to-br from-emerald-600 to-blue-600"
+                className="lg:text-5xl text-3xl font-bold capitalize text-center py-8 text-transparent bg-clip-text bg-gradient-to-br from-emerald-600 to-blue-600"
               >
                 {children}
               </motion.h1>

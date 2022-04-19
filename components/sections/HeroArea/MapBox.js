@@ -11,7 +11,7 @@ import {
 
 const MapBox = () => {
   return (
-    <div className=" map-box relative col-span-6">
+    <div className=" map-box relative lg:col-span-6 col-span-12">
       <ToolTipBoxG location="Gwinnett" />
       <ToolTipBoxO location="Athens" />
       <ToolTipBoxM location="Macon" />
