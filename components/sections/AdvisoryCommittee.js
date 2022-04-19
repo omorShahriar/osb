@@ -88,7 +88,7 @@ const AdvisoryCommittee = () => {
                 variants={blockVariants}
                 initial="hidden"
                 animate={inView ? "visible" : "hidden"}
-                className=" text-center max-w-[80ch] mx-auto "
+                className=" md:text-center text-justify max-w-[80ch] mx-auto lg:text-base text-sm "
               >
                 Oconee State Bank’s Community Advisory Committees serve as
                 ambassadors of Oconee State Bank, our eyes and ears in the
@@ -112,11 +112,14 @@ const AdvisoryCommittee = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className="grid  grid-cols-9 gap-x-4 gap-y-24 mt-4"
+              className="grid  grid-cols-9 lg:gap-x-4 lg:gap-y-24 gap-y-12 mt-4"
             >
-              <motion.div variants={cardVariants} className="col-span-3 ">
-                <div className=" flex flex-col gap-y-12  ">
-                  <h2 className="text-3xl font-semibold text-osb-green">
+              <motion.div
+                variants={cardVariants}
+                className="lg:col-span-3 col-span-9 "
+              >
+                <div className=" flex flex-col lg:gap-y-12 gap-y-6   ">
+                  <h2 className="text-3xl font-semibold text-osb-green text-center">
                     {data[0].title}
                   </h2>
                   <ul className="flex flex-col gap-y-6">
@@ -135,10 +138,10 @@ const AdvisoryCommittee = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className="col-span-3 flex flex-col gap-y-24"
+                className="lg:col-span-3 col-span-9 flex flex-col lg:gap-y-24 gap-y-12"
               >
-                <div className=" flex flex-col gap-y-12  ">
-                  <h2 className="text-3xl font-semibold text-osb-green">
+                <div className=" flex flex-col lg:gap-y-12 gap-y-6  ">
+                  <h2 className="text-3xl font-semibold text-osb-green text-center">
                     {data[1].title}
                   </h2>
                   <ul className="flex flex-col gap-y-6">
@@ -154,14 +157,14 @@ const AdvisoryCommittee = () => {
                     })}
                   </ul>
                 </div>
-                <div className=" flex flex-col gap-y-12   ">
-                  <h2 className="text-3xl font-semibold text-osb-green">
+                <div className=" flex flex-col lg:gap-y-12 gap-y-6    ">
+                  <h2 className="text-3xl font-semibold text-osb-green text-center">
                     {data[2].title}
                   </h2>
-                  <ul className="flex flex-col gap-y-6">
+                  <ul className="flex flex-col gap-y-6 ">
                     {data[2].committee.map((c, i) => {
                       return (
-                        <li key={i}>
+                        <li key={i} className="">
                           <p className=" text-lg ">{c.name}</p>
                           <p className=" text-sm font-bold text-osb-lightBlue ">
                             {c.designation}
@@ -172,7 +175,10 @@ const AdvisoryCommittee = () => {
                   </ul>
                 </div>
               </motion.div>
-              <motion.div variants={cardVariants} className="col-span-3">
+              <motion.div
+                variants={cardVariants}
+                className="lg:col-span-3 col-span-9 -order-1"
+              >
                 <InView>
                   {({ ref, inView }) => {
                     return (

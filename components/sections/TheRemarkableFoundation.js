@@ -38,7 +38,7 @@ const TheRemarkableFoundation = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className="mt-24"
+              className="lg:mt-24 mt-20"
             >
               <div className=" relative ">
                 <ImageBgBorder />
@@ -56,7 +56,7 @@ const TheRemarkableFoundation = () => {
           );
         }}
       </InView>
-      <div className=" w-[350px] mx-auto mt-10 ">
+      <div className=" md:max-w-[350px] max-w-[150px]  mx-auto mt-10 ">
         <Image
           alt="the remarkable foundation"
           src={remarkableFoundation}
@@ -66,7 +66,7 @@ const TheRemarkableFoundation = () => {
           layout="responsive"
         />
       </div>
-      <InView threshold={0.25} triggerOnce>
+      <InView>
         {({ ref, inView }) => {
           return (
             <motion.div
@@ -74,11 +74,11 @@ const TheRemarkableFoundation = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className="mt-20 grid grid-cols-3 gap-20 text-justify"
+              className="lg:mt-20 mt-10 grid grid-cols-3 lg:gap-20 gap-y-10 text-justify"
             >
               <motion.div
                 variants={cardVariants}
-                className=" prose xl:prose-lg"
+                className=" prose-sm xl:prose-lg col-span-3 lg:col-span-1"
               >
                 <p>
                   Since 1960, Oconee State Bank has been proud and thankful to
@@ -92,7 +92,7 @@ const TheRemarkableFoundation = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className=" prose xl:prose-lg"
+                className=" prose-sm col-span-3 lg:col-span-1 xl:prose-lg"
               >
                 <p>
                   The mission of The Remarkable Foundation is to provide
@@ -104,7 +104,7 @@ const TheRemarkableFoundation = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className=" prose xl:prose-lg"
+                className=" prose-sm xl:prose-lg col-span-3 lg:col-span-1"
               >
                 <p>
                   Customers, community members, local organizations, and beyond
@@ -116,7 +116,7 @@ const TheRemarkableFoundation = () => {
               </motion.div>
               <div className=" col-span-3 ">
                 <Button
-                  className="mx-auto"
+                  className="mx-auto text-sm lg:text-base"
                   link="https://athensareacf.fcsuite.com/erp/donate/create?funit_id=1561"
                 >
                   Make A Donation

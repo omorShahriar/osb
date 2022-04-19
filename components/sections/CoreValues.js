@@ -72,13 +72,13 @@ const CoreValues = () => {
           </p>
         </div>
       </div>
-      <div className=" mt-20 ">
+      <div className=" lg:mt-20 mt-10 ">
         <div className="  p-8 rounded-md border-2 border-slate-200">
-          <h2 className=" font-slab text-3xl tracking-wider mb-4 text-transparent bg-clip-text bg-gradient-to-tr from-emerald-600 to-blue-600 ">
+          <h2 className=" font-slab text-3xl tracking-wider mb-4 text-transparent bg-clip-text bg-gradient-to-tr from-emerald-600 to-blue-600 text-center lg:text-left ">
             Our Values
           </h2>
 
-          <p className="mb-12 text-gray-800">
+          <p className="mb-12 text-gray-800 text-center lg:text-left">
             <em className="block mb-1 text-slate-700">
               What is most important to us as we strive to accomplish our
               vision?
@@ -89,84 +89,84 @@ const CoreValues = () => {
             </strong>
           </p>
           <div className="flex flex-col gap-y-4">
-            <div className="grid grid-cols-12  gap-x-6  items-center">
-              <strong className="text-2xl   col-span-2">
+            <div className="grid grid-cols-12 lg:gap-y-0 gap-y-2 lg:gap-x-6  items-center">
+              <strong className="text-2xl   lg:col-span-2 cols-span-12">
                 <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600 ">
                   S
                 </span>
                 tewardship
               </strong>
-              <p className="col-span-8 text-sm text-gray-700">
+              <p className="lg:col-span-8 col-span-12 text-sm text-gray-700">
                 The privilege of wisely shepherding the resources entrusted to
                 us
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-6 items-center">
-              <strong className="text-2xl  col-span-2">
+            <div className="grid grid-cols-12 lg:gap-y-0 gap-y-2 lg:gap-x-6 items-center">
+              <strong className="text-2xl  lg:col-span-2 cols-span-12">
                 <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600 ">
                   U
                 </span>
                 nity
               </strong>
-              <p className="col-span-8 text-sm text-gray-700">
+              <p className="lg:col-span-8 col-span-12 text-sm text-gray-700">
                 Believing the best in, Expecting the best from, Seeking the best
                 for, and Telling the best about each other
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-6 items-center">
-              <strong className="text-2xl  col-span-2">
+            <div className="grid grid-cols-12 lg:gap-y-0 gap-y-2 lg:gap-x-6 items-center">
+              <strong className="text-2xl  lg:col-span-2 cols-span-12">
                 <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600 ">
                   C
                 </span>
                 ollaboration
               </strong>
-              <p className="col-span-8 text-sm text-gray-700">
+              <p className="lg:col-span-8 col-span-12 text-sm text-gray-700">
                 A culture of teamwork
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-6 items-center">
-              <strong className="text-2xl  col-span-2">
+            <div className="grid grid-cols-12 lg:gap-y-0 gap-y-2 lg:gap-x-6 items-center">
+              <strong className="text-2xl  lg:col-span-2 cols-span-12">
                 <span className=" underline decoration-wavy decoration-emerald-600  underline-offset-4 text-emerald-600 ">
                   C
                 </span>
                 ommunity
               </strong>
-              <p className="col-span-8 text-sm text-gray-700">
+              <p className="lg:col-span-8 col-span-12 text-sm text-gray-700">
                 Investing in the communities we serve through active engagement
                 and local decision-making
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-6 items-center">
-              <strong className="text-2xl  col-span-2">
+            <div className="grid grid-cols-12 lg:gap-y-0 gap-y-2 lg:gap-x-6 items-center">
+              <strong className="text-2xl  lg:col-span-2 cols-span-12">
                 <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600">
                   E
                 </span>
                 xcellence
               </strong>
-              <p className="col-span-8 text-sm text-gray-700">
+              <p className="lg:col-span-8 col-span-12 text-sm text-gray-700">
                 {" "}
                 Exceptional performance with a long-term perspective
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-6 items-center">
-              <strong className="text-2xl  col-span-2">
+            <div className="grid grid-cols-12 lg:gap-y-0 gap-y-2 lg:gap-x-6 items-center">
+              <strong className="text-2xl  lg:col-span-2 cols-span-12">
                 <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600">
                   S
                 </span>
                 ervice
               </strong>
-              <p className="col-span-8 text-sm text-gray-700">
+              <p className="lg:col-span-8 col-span-12 text-sm text-gray-700">
                 Consistently creating remarkable experiences for our customers
               </p>
             </div>
-            <div className="grid grid-cols-12  gap-x-6 items-center">
-              <strong className="text-2xl  col-span-2">
+            <div className="grid grid-cols-12 lg:gap-y-0 gap-y-2 lg:gap-x-6 items-center">
+              <strong className="text-2xl  lg:col-span-2 cols-span-12">
                 <span className=" underline decoration-wavy decoration-emerald-600 underline-offset-4 text-emerald-600 ">
                   S
                 </span>
                 olutions
               </strong>
-              <p className="col-span-8 text-sm text-gray-700">
+              <p className="lg:col-span-8 col-span-12 text-sm text-gray-700">
                 Empowering our team members to deliver results
               </p>
             </div>

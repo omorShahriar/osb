@@ -35,11 +35,11 @@ const ExecutiveLeadership = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className="grid mt-24 grid-cols-12 gap-x-12 gap-y-20 "
+              className="grid lg:mt-24 mt-20 grid-cols-12 lg:gap-x-12 lg:gap-y-20 gap-y-16 "
             >
               <motion.div
                 variants={cardVariants}
-                className="  col-span-4 flex flex-col gap-y-4 items-center text-center "
+                className="  lg:col-span-4 col-span-12 flex flex-col gap-y-4 items-center text-center "
               >
                 <div className=" w-5/12 ">
                   <div className=" relative ">
@@ -59,7 +59,7 @@ const ExecutiveLeadership = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className=" col-span-4 flex flex-col gap-y-4 items-center text-center  "
+                className=" lg:col-span-4 col-span-12 flex flex-col gap-y-4 items-center text-center  "
               >
                 <div className=" w-5/12 ">
                   <div className=" relative ">
@@ -79,7 +79,7 @@ const ExecutiveLeadership = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className="flex col-span-4 flex-col gap-y-4  items-center text-center  "
+                className="flex lg:col-span-4 col-span-12 flex-col gap-y-4  items-center text-center  "
               >
                 <div className=" w-5/12 ">
                   <div className=" relative ">
@@ -99,7 +99,7 @@ const ExecutiveLeadership = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className="flex col-start-3 col-span-4 flex-col gap-y-4  items-center text-center  "
+                className="flex lg:col-start-3 lg:col-span-4 col-span-12 flex-col gap-y-4  items-center text-center  "
               >
                 <div className=" w-5/12    rounded-md ">
                   <div className=" relative ">
@@ -121,7 +121,7 @@ const ExecutiveLeadership = () => {
               </motion.div>
               <motion.div
                 variants={cardVariants}
-                className="flex  col-start-7 col-span-4 flex-col gap-y-4 items-center text-center  "
+                className="flex  lg:col-start-7 lg:col-span-4 col-span-12 flex-col gap-y-4 items-center text-center  "
               >
                 <div className=" w-5/12 ">
                   <div className=" relative">

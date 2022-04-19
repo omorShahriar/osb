@@ -71,7 +71,7 @@ const JuniorBoardOfDirectors = () => {
   return (
     <Section>
       <SectionTitle>JUNIOR BOARD OF DIRECTORS 2021-2022</SectionTitle>
-      <div className=" prose xl:prose-lg max-w-[120ch] text-center mx-auto mt-10">
+      <div className=" prose-sm xl:prose-lg max-w-[120ch] lg:text-center text-justify mx-auto lg:mt-10 mt-4">
         <InView threshold={0.25} triggerOnce>
           {({ ref, inView }) => {
             return (
@@ -101,9 +101,9 @@ const JuniorBoardOfDirectors = () => {
           }}
         </InView>
       </div>
-      <div className=" grid  grid-cols-12 gap-x-10 gap-y-24 mt-20 ">
-        <div className=" col-span-3">
-          <InView threshold={0.25} triggerOnce>
+      <div className=" grid  grid-cols-12 lg:gap-x-10 lg:gap-y-24 gap-y-12 lg:mt-20 mt-10 ">
+        <div className=" lg:col-span-3 col-span-12">
+          <InView triggerOnce>
             {({ ref, inView }) => {
               return (
                 <motion.div
@@ -111,7 +111,7 @@ const JuniorBoardOfDirectors = () => {
                   initial="hidden"
                   ref={ref}
                   animate={inView ? "visible" : "hidden"}
-                  className=" prose xl:prose-lg"
+                  className=" prose-sm xl:prose-lg text-center md:text-left"
                 >
                   <motion.p variants={listVariants}>
                     <span className="font-semibold text-osb-lightBlue block">
@@ -178,8 +178,8 @@ const JuniorBoardOfDirectors = () => {
             }}
           </InView>
         </div>
-        <div className=" col-span-3">
-          <InView threshold={0.25} triggerOnce>
+        <div className=" lg:col-span-3 col-span-12">
+          <InView triggerOnce>
             {({ ref, inView }) => {
               return (
                 <motion.div
@@ -187,7 +187,7 @@ const JuniorBoardOfDirectors = () => {
                   initial="hidden"
                   ref={ref}
                   animate={inView ? "visible" : "hidden"}
-                  className=" prose xl:prose-lg"
+                  className=" prose-sm xl:prose-lg text-center md:text-left"
                 >
                   <motion.p variants={listVariants}>
                     <span className="font-semibold text-osb-lightBlue block">
@@ -256,7 +256,7 @@ const JuniorBoardOfDirectors = () => {
                 initial="hidden"
                 ref={ref}
                 animate={inView ? "visible" : "hidden"}
-                className=" col-start-8 col-span-5"
+                className=" lg:col-start-8 lg:col-span-5 col-span-8 col-start-3 -order-1 mt-16 lg:mt-0"
               >
                 <div className="relative">
                   <ImageBgBorder x={15} />

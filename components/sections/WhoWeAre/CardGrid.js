@@ -19,10 +19,13 @@ const CardGrid = () => {
             initial="hidden"
             ref={ref}
             animate={inView ? "visible" : "hidden"}
-            className=" mt-24 grid grid-cols-12 gap-x-10 items-stretch bg-gradient-to-bl from-emerald-600 to-blue-600 rounded-md p-20"
+            className=" lg:mt-24 mt-20 grid grid-cols-12 lg:gap-x-10 lg:gap-y-0 gap-y-4  items-stretch bg-gradient-to-bl from-emerald-600 to-blue-600 rounded-md lg:p-20 p-10"
           >
-            <motion.div variants={cardVariants} className="  col-span-3 ">
-              <div className="h-full flex flex-col items-center justify-center gap-y-10 p-4 rounded-md bg-white">
+            <motion.div
+              variants={cardVariants}
+              className="  lg:col-span-3 col-span-12 "
+            >
+              <div className="h-full flex flex-col items-center justify-center lg:gap-y-10 gap-y-8 lg:p-4 p-2 rounded-md bg-white">
                 <div className="icon">
                   <motion.svg
                     variants={svgVariants()}
@@ -281,8 +284,11 @@ const CardGrid = () => {
                 </p>
               </div>
             </motion.div>
-            <motion.div variants={cardVariants} className=" col-span-3 ">
-              <div className="h-full flex flex-col items-center justify-center gap-y-10 p-4 rounded-md bg-white">
+            <motion.div
+              variants={cardVariants}
+              className=" lg:col-span-3 col-span-12 "
+            >
+              <div className="h-full flex flex-col items-center justify-center lg:gap-y-10 gap-y-8 lg:p-4 p-2 rounded-md bg-white">
                 <div className="icon">
                   <motion.svg
                     variants={svgVariants()}
@@ -449,8 +455,11 @@ const CardGrid = () => {
                 </p>
               </div>
             </motion.div>
-            <motion.div variants={cardVariants} className=" col-span-3 ">
-              <div className="h-full flex flex-col gap-y-10 p-4 items-center justify-center  rounded-md bg-white">
+            <motion.div
+              variants={cardVariants}
+              className=" lg:col-span-3 col-span-12 "
+            >
+              <div className="h-full flex flex-col lg:gap-y-10 gap-y-8 lg:p-4 p-2 items-center justify-center  rounded-md bg-white">
                 <div className="icon  ">
                   <motion.svg
                     variants={svgVariants()}
@@ -569,8 +578,11 @@ const CardGrid = () => {
                 </p>
               </div>
             </motion.div>
-            <motion.div variants={cardVariants} className=" col-span-3 ">
-              <div className="h-full flex flex-col gap-y-10 p-4  items-center justify-center  rounded-md bg-white">
+            <motion.div
+              variants={cardVariants}
+              className=" lg:col-span-3 col-span-12 "
+            >
+              <div className="h-full flex flex-col lg:gap-y-10 gap-y-8 lg:p-4 p-2  items-center justify-center  rounded-md bg-white">
                 <div className="icon">
                   <motion.svg
                     variants={svgVariants()}

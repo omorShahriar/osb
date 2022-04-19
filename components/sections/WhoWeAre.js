@@ -58,9 +58,12 @@ const WhoWeAre = () => {
               initial="hidden"
               ref={ref}
               animate={inView ? "visible" : "hidden"}
-              className=" grid grid-cols-12 gap-8 mt-44 items-center"
+              className=" grid grid-cols-12 lg:gap-8 gap-4 lg:mt-44 mt-20 lg:items-center"
             >
-              <motion.div variants={imageVariants} className="col-span-3">
+              <motion.div
+                variants={imageVariants}
+                className="lg:col-span-3 col-span-12 "
+              >
                 <Image
                   src={one}
                   placeholder="blur"
@@ -71,7 +74,10 @@ const WhoWeAre = () => {
                   className=" rounded-md "
                 />
               </motion.div>
-              <motion.div variants={imageVariants} className="col-span-6">
+              <motion.div
+                variants={imageVariants}
+                className="lg:col-span-6 col-span-12"
+              >
                 <Image
                   src={two}
                   placeholder="blur"
@@ -82,7 +88,10 @@ const WhoWeAre = () => {
                   className=" rounded-md "
                 />
               </motion.div>
-              <motion.div variants={imageVariants} className="col-span-3">
+              <motion.div
+                variants={imageVariants}
+                className="lg:col-span-3 col-span-12"
+              >
                 <Image
                   src={three}
                   placeholder="blur"
@@ -115,7 +124,10 @@ const WhoWeAre = () => {
                   className=" rounded-md "
                 />
               </motion.div>
-              <motion.div variants={imageVariants} className="col-span-3">
+              <motion.div
+                variants={imageVariants}
+                className="lg:col-span-3 col-span-12"
+              >
                 <Image
                   src={six}
                   placeholder="blur"
@@ -137,7 +149,10 @@ const WhoWeAre = () => {
                   className=" rounded-md "
                 />
               </motion.div>
-              <motion.div variants={imageVariants} className="col-span-3">
+              <motion.div
+                variants={imageVariants}
+                className="lg:col-span-3 col-span-6"
+              >
                 <Image
                   src={eight}
                   placeholder="blur"

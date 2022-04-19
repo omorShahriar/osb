@@ -46,11 +46,14 @@ export const CeoDesc = () => {
           >
             <motion.p
               variants={textVariants}
-              className=" text-2xl font-semibold text-sky-500 "
+              className=" lg:text-2xl text-lg font-semibold text-sky-500 "
             >
               Neil Stevens
             </motion.p>
-            <motion.p variants={textVariants} className=" text-base  ">
+            <motion.p
+              variants={textVariants}
+              className=" lg:text-base text-sm  "
+            >
               President, Chief Executive Officer
             </motion.p>
           </motion.div>
@@ -73,11 +76,14 @@ export const CfoDesc = () => {
           >
             <motion.p
               variants={textVariants}
-              className=" text-2xl font-semibold text-sky-500 "
+              className=" lg:text-2xl text-lg font-semibold text-sky-500 "
             >
               Jim McLemore
             </motion.p>
-            <motion.p variants={textVariants} className=" text-base  ">
+            <motion.p
+              variants={textVariants}
+              className=" lg:text-base text-sm  "
+            >
               Executive Vice President, Chief Financial Officer
             </motion.p>
           </motion.div>
@@ -99,11 +105,14 @@ export const CloDesc = () => {
           >
             <motion.p
               variants={textVariants}
-              className=" text-2xl font-semibold text-sky-500 "
+              className=" lg:text-2xl text-lg font-semibold text-sky-500 "
             >
               Philip Bernadi
             </motion.p>
-            <motion.p variants={textVariants} className=" text-base  ">
+            <motion.p
+              variants={textVariants}
+              className=" lg:text-base text-sm  "
+            >
               Executive Vice President, Chief Banking Officer
             </motion.p>
           </motion.div>
@@ -125,11 +134,14 @@ export const CaoDesc = () => {
           >
             <motion.p
               variants={textVariants}
-              className=" text-2xl font-semibold text-sky-500 "
+              className=" lg:text-2xl text-lg font-semibold text-sky-500 "
             >
               Cristi Donahue
             </motion.p>
-            <motion.p variants={textVariants} className=" text-base  ">
+            <motion.p
+              variants={textVariants}
+              className=" lg:text-base text-sm  "
+            >
               Executive Vice President, Chief Administrative Officer
             </motion.p>
           </motion.div>
@@ -151,11 +163,14 @@ export const CcoDesc = () => {
           >
             <motion.p
               variants={textVariants}
-              className=" text-2xl font-semibold text-sky-500 "
+              className=" lg:text-2xl text-lg font-semibold text-sky-500 "
             >
               Tom Wilson
             </motion.p>
-            <motion.p variants={textVariants} className=" text-base  ">
+            <motion.p
+              variants={textVariants}
+              className=" lg:text-base text-sm  "
+            >
               Executive Vice President, Chief Credit Officer
             </motion.p>
           </motion.div>
