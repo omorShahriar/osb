@@ -1,16 +1,10 @@
 const Footer = () => {
   return (
     <div className="lg:mt-24 mt-20 relative">
-      <div
-        className="inline-block relative w-full align-middle overflow-clip"
-        style={{ paddingBottom: "100%" }}
-      >
+      <div className=" overflow-hidden">
         <svg
-          width="1536"
-          height="92"
-          viewBox="0 0 2452 92"
+          viewBox="0 0 1536 92"
           preserveAspectRatio="xMinYMin meet"
-          className=" inline-block absolute top-0 left-0 "
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
