@@ -1,11 +1,16 @@
 const Footer = () => {
   return (
-    <div className="mt-24 relative">
-      <div className=" overflow-clip">
+    <div className="lg:mt-24 mt-20 relative">
+      <div
+        className="inline-block relative w-full align-middle overflow-clip"
+        style={{ paddingBottom: "100%" }}
+      >
         <svg
           width="1536"
           height="92"
           viewBox="0 0 2452 92"
+          preserveAspectRatio="xMinYMin meet"
+          className=" inline-block absolute top-0 left-0 "
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -21,9 +26,8 @@ const Footer = () => {
           autoPlay="autoplay"
           loop="loop"
           muted
-          defaultMuted
-          playsinline
-          onContextMenu="return false;"
+          playsInline
+          onContextMenu={(e) => e.preventDefault()}
           preload="auto"
         >
           <source
