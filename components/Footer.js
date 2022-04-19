@@ -17,7 +17,15 @@ const Footer = () => {
         </svg>
       </div>
       <div className="max-w-[800px] mx-auto ">
-        <video loop autoPlay muted>
+        <video
+          autoPlay="autoplay"
+          loop="loop"
+          muted
+          defaultMuted
+          playsinline
+          onContextMenu="return false;"
+          preload="auto"
+        >
           <source
             src="/report/videos/animated-logo-compressed.mp4"
             type="video/mp4"
