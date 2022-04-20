@@ -15,9 +15,9 @@ const MapBox = () => {
       <ToolTipBoxG location="Gwinnett" />
       <ToolTipBoxO location="Athens" />
       <ToolTipBoxM location="Macon" />
-      <ToolTipBoxB location="Oconne" />
-      <ToolTipBoxBC location="Oconne" />
-      <ToolTipBoxMO location="Oconne" />
+      <ToolTipBoxB location="Oconnee" />
+      <ToolTipBoxBC location="Oconnee" />
+      <ToolTipBoxMO location="Oconnee" />
       <Image
         alt="map image"
         src="/report/svg/map.svg"

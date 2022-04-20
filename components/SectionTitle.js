@@ -23,8 +23,6 @@ const SectionTitle = ({ children }) => {
             <>
               <motion.svg
                 ref={ref}
-                width="648"
-                height="66"
                 viewBox="0 0 648 66"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -51,8 +49,6 @@ const SectionTitle = ({ children }) => {
                 {children}
               </motion.h1>
               <motion.svg
-                width="648"
-                height="66"
                 viewBox="0 0 648 66"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
