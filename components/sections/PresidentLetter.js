@@ -126,7 +126,15 @@ const PresidentLetter = () => {
                     Mr. Maxwell and understand that leadership development is a
                     key component of our strategic growth.
                   </motion.p>
-
+                  <div className="mt-2 mb-4">
+                    {" "}
+                    <motion.p className=" italic font-thin text-2xl text-slate-800  ">
+                      Sincerely,
+                    </motion.p>
+                    <motion.div variants={cardVariants} className="signature ">
+                      <Signature />
+                    </motion.div>
+                  </div>
                   <motion.p
                     variants={cardVariants}
                     className=" md:text-base text-sm mb-8 "
@@ -158,12 +166,6 @@ const PresidentLetter = () => {
                     essential to the lives, businesses, and communities we
                     serve.
                   </motion.p>
-                  <motion.p className=" italic font-thin text-2xl text-slate-800 mt-2 mb-4 ">
-                    Sincerely,
-                  </motion.p>
-                  <motion.div variants={cardVariants} className="signature ">
-                    <Signature />
-                  </motion.div>
                 </motion.div>
               );
             }}
