@@ -49,7 +49,7 @@ export const totalDepositsData = {
       label: "Total Deposits ($Millions)",
       backgroundColor: "#2563eb",
       borderColor: "rgb(255, 255, 255)",
-      data: [324096000, 318497000, 361523000, 444702063, 0],
+      data: [324096000, 318497000, 361523000, 444702063, 520000000],
     },
   ],
 };
