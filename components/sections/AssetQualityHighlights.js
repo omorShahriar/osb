@@ -84,16 +84,16 @@ const AssetQualityHighlights = () => {
                 <p>
                   In 2021, the Bank reflected $25.2 Million (9.2%) in loan
                   portfolio growth, excluding SBA PPP loans, with the primary
-                  growth areas being Owner Occupied Commercial Real Estate $13.9
-                  Million (13.7%), Non-Owner Occupied Commercial Real Estate
-                  $14.5 Million (14.5%), and Multifamily Housing $11.4 Million.
-                  Over the five year history shown, the Bank has grown the loan
-                  portfolio by 105% or a Compound Annual Growth Rate of 15.4%.
-                  Additionally, during these five years, the Bank’s focus on
-                  growing small business relationships by focusing on Owner
-                  Occupied Commercial Real Estate, has resulted in this portion
-                  of the loan portfolio growing by 138.7% or a Compound Annual
-                  Growth Rate of 19%.
+                  growth areas being Owner Occupied Commercial Real Estate of
+                  $13.9 Million (13.7%), Non-Owner Occupied Commercial Real
+                  Estate of $14.5 Million (14.5%), and Multifamily Housing of
+                  $11.4 Million. Over the five year history shown, the Bank has
+                  grown the loan portfolio by 105% or a Compound Annual Growth
+                  Rate of 15.4%. Additionally, during these five years, the
+                  Bank’s focus on growing small business relationships by
+                  focusing on Owner Occupied Commercial Real Estate, has
+                  resulted in this portion of the loan portfolio growing by
+                  138.7% or a Compound Annual Growth Rate of 19%.
                 </p>
               </motion.div>
             );
