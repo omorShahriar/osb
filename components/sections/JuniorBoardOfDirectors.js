@@ -256,7 +256,7 @@ const JuniorBoardOfDirectors = () => {
                 initial="hidden"
                 ref={ref}
                 animate={inView ? "visible" : "hidden"}
-                className=" lg:col-start-8 lg:col-span-5 col-span-8 col-start-3 -order-1 mt-16 lg:mt-0"
+                className=" lg:col-start-8 lg:col-span-5 col-span-8 col-start-3 -order-1 lg:order-1 mt-16 lg:mt-0"
               >
                 <div className="relative">
                   <ImageBgBorder x={15} />
