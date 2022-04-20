@@ -87,22 +87,20 @@ const PresidentLetter = () => {
                     <em>Fascination</em> – a place where team members are
                     fascinated by the organization’s mission and strategy for
                     growth. <em>Financial</em> – a place where all stakeholders
-                    achieve financial success.
-                    <em>Future</em> – a place where team members believe in the
-                    company’s future and know they are positively impacted by
-                    its growth.
-                    <em>Freedom</em> – a place where team members hold each
-                    other accountable, while having the autonomy to serve with
-                    prudence and excellence. At Oconee State Bank, our team is
-                    dedicated to igniting an unstoppable culture, understanding
-                    that a remarkable team member experience translates to an
-                    equally remarkable experience for our customers,
-                    shareholders, industry partners, and the communities we
-                    serve.
+                    achieve financial success. <em>Future</em> – a place where
+                    team members believe in the company’s future and know they
+                    are positively impacted by its growth. <em>Freedom</em> – a
+                    place where team members hold each other accountable, while
+                    having the autonomy to serve with prudence and excellence.
+                    At Oconee State Bank, our team is dedicated to igniting an
+                    unstoppable culture, understanding that a remarkable team
+                    member experience translates to an equally remarkable
+                    experience for our customers, shareholders, industry
+                    partners, and the communities we serve.
                   </motion.p>
                   <motion.p
                     variants={cardVariants}
-                    className="md:text-base text-sm  mb-12 "
+                    className="md:text-base text-sm  mb-12 md:mb-96 "
                   >
                     <span className="block text-osb-green font-semibold md:text-2xl text-xl text-left mb-2">
                       Grow Leaders
