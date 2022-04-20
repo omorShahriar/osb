@@ -100,7 +100,7 @@ const PresidentLetter = () => {
                   </motion.p>
                   <motion.p
                     variants={cardVariants}
-                    className="md:text-base text-sm  mb-12 md:mb-96 "
+                    className="md:text-base text-sm  mb-12  "
                   >
                     <span className="block text-osb-green font-semibold md:text-2xl text-xl text-left mb-2">
                       Grow Leaders
