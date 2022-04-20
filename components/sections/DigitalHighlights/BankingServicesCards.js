@@ -271,7 +271,7 @@ const BankingServicesCard = () => {
                   <div className=" text-center space-y-2 ">
                     <p className=" text-md font-semibold ">Items processed</p>
                     <p className=" text-2xl  font-bold text-emerald-500 ">
-                      25724
+                      25,724
                     </p>
                   </div>
                 </div>
@@ -644,7 +644,7 @@ const BankingServicesCard = () => {
                       Number of payments
                     </p>
                     <p className=" text-2xl  font-bold text-emerald-500 ">
-                      33431
+                      33,431
                     </p>
                   </div>
                 </div>

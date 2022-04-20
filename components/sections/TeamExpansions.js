@@ -54,8 +54,8 @@ const TeamExpansions = () => {
                     guaranteed government lending. We are committed to helping
                     mark the lives of those wanting to build, expand, or
                     recover. Supporting small businesses in a way that we have
-                    longed to do is now possible with the expansion of the Small
-                    Business Administration team.
+                    longed to do, is now possible with the expansion of the
+                    Small Business Administration team.
                   </p>
                 </div>
                 <div className="grow flex   ">
@@ -109,7 +109,7 @@ const TeamExpansions = () => {
                     lives. The decisions that you make today will put you on
                     track towards the right course for the future. With services
                     including Wealth Management, Business Retirement Plans, Risk
-                    Management, and Financial Planning. Now our customers have
+                    Management, and Financial Planning, now our customers have
                     even more support when creating their financial plans with
                     the expansion and experience of the OSFS team.
                   </p>

@@ -331,11 +331,12 @@ const Teams = () => {
                     variants={teamQuoteVariants}
                     className="text-justify md:mb-0 mb-20"
                   >
-                    “Oconee State Bank is excited to bring a new market team to
-                    the Macon and Middle Georgia community. Our goal is to
-                    intentionally build a team made up of remarkable talent
-                    while also working to grow a strong customer base and
-                    identify a location that best serves the area. ”
+                    “Oconee State Bank is excited to bring a new team to the
+                    Central Georgia community. Our goal is to intentionally grow
+                    remarkable talent while building a strong customer base
+                    throughout Central Georgia. We are diligently searching for
+                    a strategic location in Macon that will best serve our
+                    community. Exciting times ahead!”
                     <span className="block not-italic font-semibold text-sm my-4 text-right">
                       – Robby Redmond, Macon Market President
                     </span>

@@ -21,7 +21,7 @@ const CoreValues = () => {
               {" "}
               essential
             </strong>{" "}
-            to the lives, businesses and communities we serve.
+            to the lives, businesses, and communities we serve.
           </p>
         </div>
         <div className=" col-span-2 w-1 mx-auto  ">

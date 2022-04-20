@@ -104,11 +104,11 @@ const BoardOfDirectors = () => {
                     BRIAN J. BRODRICK JOINED IN 2016
                   </h2>
                   <p className="text-sm lg:text-base">
-                    Partner & Manager of Athens Office, Jackson Spalding Brian
-                    has more than 25 years of strategic communications
-                    experience, the past 22 at Jackson Spalding, Georgia’s
-                    leading independent marketing communications agency. Brian
-                    also serves as the Major of Watkinsville, GA.
+                    Partner & Manager of Jackson Spalding – Athens, Brian has
+                    more than 25 years of strategic communications experience,
+                    the past 22 at Jackson Spalding, Georgia’s leading
+                    independent marketing communications agency. Brian also
+                    serves as the Mayor of Watkinsville, GA.
                   </p>
                 </div>
               </motion.div>
@@ -161,7 +161,7 @@ const BoardOfDirectors = () => {
                     JONATHAN R. MURROW, MD JOINED IN 2016
                   </h2>
                   <p className="text-sm lg:text-base">
-                    Cardiologist, Piedmont Heart Institute – Athens Jonathan
+                    Cardiologist, Piedmont Heart Institute – Athens, Jonathan
                     received his undergraduate degree from Harvard College. He
                     earned his medical degree from Emory University School of
                     Medicine in 2001. He completed his internal medicine

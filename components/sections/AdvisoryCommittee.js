@@ -79,7 +79,7 @@ const AdvisoryCommittee = () => {
   return (
     <Section>
       <div className=" mx-auto mb-12">
-        <SectionTitle>Community Advisory Committee</SectionTitle>
+        <SectionTitle>Community Advisory Committees</SectionTitle>
         <InView threshold={0.5} triggerOnce>
           {({ ref, inView }) => {
             return (
@@ -157,7 +157,7 @@ const AdvisoryCommittee = () => {
                     })}
                   </ul>
                 </div>
-                <div className=" flex flex-col lg:gap-y-12 gap-y-6    ">
+                {/* <div className=" flex flex-col lg:gap-y-12 gap-y-6    ">
                   <h2 className="text-3xl font-semibold text-osb-green text-center">
                     {data[2].title}
                   </h2>
@@ -173,7 +173,7 @@ const AdvisoryCommittee = () => {
                       );
                     })}
                   </ul>
-                </div>
+                </div> */}
               </motion.div>
               <motion.div
                 variants={cardVariants}
