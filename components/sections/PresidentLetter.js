@@ -44,7 +44,7 @@ const PresidentLetter = () => {
                 >
                   <motion.p
                     variants={cardVariants}
-                    className=" md:text-base text-sm mb-8 "
+                    className=" md:text-base text-sm mb-4 "
                   >
                     As you will see throughout your 2021 Annual Report, we are
                     pleased to share that Oconee State Bank exceeded our
@@ -68,7 +68,7 @@ const PresidentLetter = () => {
                   </motion.p>
                   <motion.p
                     variants={cardVariants}
-                    className=" md:text-base text-sm mb-12 "
+                    className=" md:text-base text-sm mb-8 "
                   >
                     <span className="block text-osb-green font-semibold  text-left mb-2 md:text-2xl text-xl">
                       Ignite an Unstoppable Culture
@@ -99,7 +99,7 @@ const PresidentLetter = () => {
                   </motion.p>
                   <motion.p
                     variants={cardVariants}
-                    className="md:text-base text-sm  mb-12  "
+                    className="md:text-base text-sm  mb-8 "
                   >
                     <span className="block text-osb-green font-semibold md:text-2xl text-xl text-left mb-2">
                       Grow Leaders
@@ -122,7 +122,7 @@ const PresidentLetter = () => {
                     we agree with Mr. Maxwell and understand that leadership
                     development is a key component of our strategic growth.
                   </motion.p>
-                  <div className="mt-2 mb-4">
+                  <div className=" mb-4">
                     {" "}
                     <motion.p
                       variants={cardVariants}
