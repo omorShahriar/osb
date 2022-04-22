@@ -77,26 +77,25 @@ const PresidentLetter = () => {
                     is intently focused on igniting a culture that is
                     remarkable. Here at Oconee State Bank, we strive to create
                     an environment where what is written on the walls (our
-                    vision, mission, and values) is lived out in the halls. When
-                    the passion, strengths, and talents of our team members
-                    align with the same of our organization, this is when the
-                    magic happens. My friend, Glen Jackson, Co-Founder of
-                    marketing communications agency Jackson Spalding, says
-                    “every company should ensure their culture has 5 F’s.”{" "}
-                    <em>Fun</em> – a place where team members enjoy working.{" "}
-                    <em>Fascination</em> – a place where team members are
-                    fascinated by the organization’s mission and strategy for
-                    growth. <em>Financial</em> – a place where all stakeholders
-                    achieve financial success. <em>Future</em> – a place where
-                    team members believe in the company’s future and know they
-                    are positively impacted by its growth. <em>Freedom</em> – a
-                    place where team members hold each other accountable, while
-                    having the autonomy to serve with prudence and excellence.
-                    At Oconee State Bank, our team is dedicated to igniting an
-                    unstoppable culture, understanding that a remarkable team
-                    member experience translates to an equally remarkable
-                    experience for our customers, shareholders, industry
-                    partners, and the communities we serve.
+                    vision, mission, and values) is lived in the halls. When the
+                    passion, strengths, and talents of our team members align
+                    with those of our organization, this is when the magic
+                    happens. My friend, Glen Jackson, Co-Founder of Jackson
+                    Spalding, says “every company should ensure their culture
+                    has 5 F’s.” Fun – a place where team members enjoy working.
+                    Fascination – a place where team members are fascinated by
+                    the organization’s mission and strategy for growth.
+                    Financial – a place where all stakeholders achieve financial
+                    success. Future – a place where team members believe in the
+                    company’s future and know they are positively impacted by
+                    its growth. Freedom – a place where team members hold each
+                    other accountable, while having the autonomy to serve with
+                    prudence and excellence. At Oconee State Bank, our team is
+                    dedicated to igniting an unstoppable culture, understanding
+                    that a remarkable team member experience translates to an
+                    equally remarkable experience for our customers,
+                    shareholders, industry partners, and the communities we
+                    serve.
                   </motion.p>
                   <motion.p
                     variants={cardVariants}
@@ -109,22 +108,19 @@ const PresidentLetter = () => {
                     leadership.” Any successful organization has learned how to
                     effectively grow and develop their leaders. Our priority is
                     to pour our time, talent, and resources into cultivating,
-                    not only our current leadership team, but our future one as
-                    well. We are fortunate to have, and continue to seek,
-                    leaders who are <strong>passionate</strong> about their
-                    professional and personal development. Leaders who are{" "}
-                    <strong>authentic</strong> and genuinely care about our
-                    team. Leaders who are <strong>competent</strong> and highly
-                    skilled in their role. Leaders with strong work ethic who
-                    set <strong>high standards</strong> for themselves, their
-                    peers, and relentlessly pursue excellence. Leaders who{" "}
-                    <strong>communicate</strong> exceptionally well and leaders
-                    with a high degree of{" "}
-                    <strong>emotional intelligence</strong>. The cornerstone of
-                    any organization lies in the strength of its leaders
-                    throughout the company. At Oconee State Bank, we agree with
-                    Mr. Maxwell and understand that leadership development is a
-                    key component of our strategic growth.
+                    not only our current leadership team, but our future leaders
+                    as well. We are fortunate to have, and continue to seek,
+                    leaders who are passionate about their professional and
+                    personal development; leaders who are authentic and
+                    genuinely care about our team; leaders who are competent and
+                    highly skilled in their role; leaders with a strong work
+                    ethic who set high standards for themselves, their peers,
+                    and relentlessly pursue excellence; leaders who communicate
+                    exceptionally well; and leaders with a high degree of
+                    emotional intelligence. The cornerstone of any organization
+                    lies in the strength of its leaders. At Oconee State Bank,
+                    we agree with Mr. Maxwell and understand that leadership
+                    development is a key component of our strategic growth.
                   </motion.p>
                   <div className="mt-2 mb-4">
                     {" "}
@@ -141,6 +137,9 @@ const PresidentLetter = () => {
                       variants={cardVariants}
                       className="  font-semibold text-sm text-slate-900 text-right mt-4  "
                     >
+                      <span className=" text-lg text-slate-800 block">
+                        T. Neil Stevens
+                      </span>{" "}
                       President & CEO
                     </motion.p>
                   </div>
@@ -152,15 +151,15 @@ const PresidentLetter = () => {
                       Execute with Excellence
                     </span>
                     One important trait of any successful company is the ability
-                    to effectively execute on a strong strategy. My friend David
+                    to effectively execute a strong strategy. My friend David
                     Salyers, former Vice President of Marketing for Chick-Fil-A,
                     says that “80% of what we do is the same as every other
                     bank. Executing with excellence is doing the 80% really
                     well, while identifying how to differentiate ourselves by
-                    doing the additional 20% <strong>radically</strong>{" "}
-                    different.” Oconee State Bank is fanatical about inspiring
-                    raving fans, by creating remarkable experiences that
-                    significantly mark the lives of others.
+                    doing the additional 20% radically different.” Oconee State
+                    Bank is fanatical about inspiring raving fans, by creating
+                    remarkable experiences that significantly mark the lives of
+                    others.
                   </motion.p>
                   <motion.p
                     variants={cardVariants}
@@ -170,8 +169,8 @@ const PresidentLetter = () => {
                     customers and communities are served by a team, whose
                     passion and purpose is to consistently offer remarkable
                     service and value to others. As we move forward in 2022,
-                    with a focus on continued growth and collaboration, I have
-                    confidence that, with your support, we will continue to be
+                    with a focus on continued growth and collaboration, I am
+                    confident, with your support, we will continue to be
                     essential to the lives, businesses, and communities we
                     serve.
                   </motion.p>
