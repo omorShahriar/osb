@@ -85,7 +85,7 @@ const FinancialHighlights = () => {
                       PPP fee income recognized in 2020. Oconee State Bank
                       provided $56 million in PPP funding to 638 customers in
                       2020 and another $18 million in funding to 232 customers
-                      in 2021. As of 12/31/21, the bank has received $70 million
+                      in 2021. As of 12/31/21, the Bank has received $70 million
                       from the U.S. Small Business Administration for loans
                       forgiven. These PPP loans provided cash flow assistance to
                       businesses who were affected by economic conditions as a
