@@ -128,12 +128,21 @@ const PresidentLetter = () => {
                   </motion.p>
                   <div className="mt-2 mb-4">
                     {" "}
-                    <motion.p className=" italic font-thin text-2xl text-slate-800  ">
+                    <motion.p
+                      variants={cardVariants}
+                      className=" italic font-thin text-2xl text-slate-800  "
+                    >
                       Sincerely,
                     </motion.p>
                     <motion.div variants={cardVariants} className="signature ">
                       <Signature />
                     </motion.div>
+                    <motion.p
+                      variants={cardVariants}
+                      className="  font-semibold text-sm text-slate-900 text-right mt-4  "
+                    >
+                      President & CEO
+                    </motion.p>
                   </div>
                   <motion.p
                     variants={cardVariants}

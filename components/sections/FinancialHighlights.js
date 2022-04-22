@@ -85,23 +85,23 @@ const FinancialHighlights = () => {
                       PPP fee income recognized in 2020. Oconee State Bank
                       provided $56 million in PPP funding to 638 customers in
                       2020 and another $18 million in funding to 232 customers
-                      in 2021. As of 12/31/21, the bank has received $69.7
-                      million from the U.S. Small Business Administration for
-                      loans forgiven. These PPP loans provided cash flow
-                      assistance to businesses who were affected by economic
-                      conditions as a result of COVID-19. Oconee Financial
-                      Corporation paid a dividend of $0.65 per share in April of
-                      2021, an increase of 8 percent over the prior year
-                      dividend. Our book value per share increased from $42.56
-                      to $43.88, an increase of 3 percent. We are pleased to
-                      report that the Board of Directors voted to increase the
-                      2022 annual dividend to $0.70 per share, an increase of 8
-                      percent. This dividend increase mirrors our growth and
-                      overall financial strength. Oconee Financial
-                      Corporation&#39;s stock, which trades on the OTCQX under
-                      the ticker symbol &ldquo;OSBK,&rdquo; increased from
-                      $36.25 per share at year-end 2020 to $44.00 per share at
-                      year-end 2021. This represents an increase of 21 percent
+                      in 2021. As of 12/31/21, the bank has received $70 million
+                      from the U.S. Small Business Administration for loans
+                      forgiven. These PPP loans provided cash flow assistance to
+                      businesses who were affected by economic conditions as a
+                      result of COVID-19. Oconee Financial Corporation paid a
+                      dividend of $0.65 per share in April of 2021, an increase
+                      of 8 percent over the prior year dividend. Our book value
+                      per share increased from $42.56 to $43.88, an increase of
+                      3 percent. We are pleased to report that the Board of
+                      Directors voted to increase the 2022 annual dividend to
+                      $0.70 per share, an increase of 8 percent. This dividend
+                      increase mirrors our growth and overall financial
+                      strength. Oconee Financial Corporation&#39;s stock, which
+                      trades on the OTCQX under the ticker symbol
+                      &ldquo;OSBK,&rdquo; increased from $36.25 per share at
+                      year-end 2020 to $44.00 per share at year-end 2021. This
+                      represents an increase of 21 percent
                     </p>
                   </motion.div>
                 );
@@ -152,20 +152,19 @@ const FinancialHighlights = () => {
                       Lending and Credit Quality
                     </p>
                     <p>
-                      Our credit quality remains strong. Total loans decreased
-                      $26 million or 7 percent. However, excluding the effect of
-                      loan pay downs from Paycheck Protection Program (PPP)
-                      forgiveness payments during 2021, loans increased $29.9
-                      million, or 9.4%. Our owner-occupied commercial real
-                      estate portfolio, which represents one of the safer
-                      segments of our loan portfolio, continued to grow in 2021.
-                      Past dues remained extremely low and were only 0.11% of
-                      loan balances at 12/31/21. We were able to reduce the
-                      amount of our loan loss provision with $456,000 booked in
-                      2021, compared to $1.25 million for 2020. 2020&#39;s loan
-                      loss provision reflected potential risks from the COVID-19
-                      virus. For 2021, our loan recoveries, net of loan charge
-                      offs were only $29,000.
+                      Total loans decreased $26 million or 7 percent. However,
+                      excluding the effect of loan pay downs from Paycheck
+                      Protection Program (PPP) forgiveness payments during 2021,
+                      loans increased $25.2 million, or 9.2%. Our owner-occupied
+                      commercial real estate portfolio, which represents one of
+                      the safer segments of our loan portfolio, continued to
+                      grow in 2021. Past dues remained extremely low and were
+                      only 0.11% of loan balances at 12/31/21. We were able to
+                      reduce the amount of our loan loss provision with $456,000
+                      booked in 2021, compared to $1.25 million for 2020.
+                      2020&#39;s loan loss provision reflected potential risks
+                      from the COVID-19 virus. For 2021, our loan recoveries,
+                      net of loan charge offs were only $29,000.
                     </p>
                   </motion.div>
                 );

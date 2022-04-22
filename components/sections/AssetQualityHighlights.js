@@ -34,7 +34,7 @@ const AssetQualityHighlights = () => {
                 <p>
                   In 2021, the Bank continued to assist small businesses through
                   an additional $18 Million of 2021 SBA Paycheck Protection
-                  Program (PPP) Loans and guiding them through $71 Million in
+                  Program (PPP) Loans and guiding them through $70 Million in
                   loan forgiveness. Excluding these PPP loan efforts, the Bank
                   continued to grow its targeted Owner Occupied Commercial Real
                   Estate Portfolio to 38% of the Total Loan Portfolio.
