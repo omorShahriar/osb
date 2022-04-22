@@ -133,15 +133,6 @@ const PresidentLetter = () => {
                     <motion.div variants={cardVariants} className="signature ">
                       <Signature />
                     </motion.div>
-                    <motion.p
-                      variants={cardVariants}
-                      className="  font-semibold text-sm text-slate-900 text-right mt-4  "
-                    >
-                      <span className=" text-lg text-slate-800 block">
-                        T. Neil Stevens
-                      </span>{" "}
-                      President & CEO
-                    </motion.p>
                   </div>
                   <motion.p
                     variants={cardVariants}
