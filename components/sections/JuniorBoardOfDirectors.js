@@ -71,7 +71,7 @@ const JuniorBoardOfDirectors = () => {
   return (
     <Section>
       <SectionTitle>JUNIOR BOARD OF DIRECTORS 2021-2022</SectionTitle>
-      <div className=" prose-sm xl:prose-lg max-w-[120ch] lg:text-center text-justify mx-auto lg:mt-10 mt-4">
+      <div className=" prose-sm xl:prose-lg max-w-[120ch]  text-justify mx-auto lg:mt-10 mt-4">
         <InView threshold={0.25} triggerOnce>
           {({ ref, inView }) => {
             return (
@@ -87,8 +87,8 @@ const JuniorBoardOfDirectors = () => {
                 nominated by teachers and selected by their schools to serve as
                 the 2021-2022 Junior Directors. The combined academic and
                 extracurricular achievements of this year’s Board is unmatched.
-                These students are making a difference and marking lives in
-                their own right in their corner of the world. At Oconee State
+                These students are making a difference and marking lives, in
+                their own right, in their corner of the world. At Oconee State
                 Bank, we are proud to fulfill our commitment to serving our
                 local school systems through community education initiatives,
                 and working directly with aspiring young leaders is an honor for

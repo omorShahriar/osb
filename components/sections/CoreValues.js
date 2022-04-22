@@ -97,8 +97,8 @@ const CoreValues = () => {
                 tewardship
               </strong>
               <p className="lg:col-span-8 col-span-12 text-sm text-gray-700">
-                The privilege of wisely shepherding the resources entrusted to
-                us
+                The privilege and responsibility of wisely shepherding our
+                resources
               </p>
             </div>
             <div className="grid grid-cols-12 lg:gap-y-0 gap-y-2 lg:gap-x-6 items-center">
@@ -132,8 +132,8 @@ const CoreValues = () => {
                 ommunity
               </strong>
               <p className="lg:col-span-8 col-span-12 text-sm text-gray-700">
-                Investing in the communities we serve through active engagement
-                and local decision-making
+                Partnering with our communities through local ownership,
+                involvement and decision-making
               </p>
             </div>
             <div className="grid grid-cols-12 lg:gap-y-0 gap-y-2 lg:gap-x-6 items-center">
@@ -167,7 +167,7 @@ const CoreValues = () => {
                 olutions
               </strong>
               <p className="lg:col-span-8 col-span-12 text-sm text-gray-700">
-                Empowering our team members to deliver results
+                Empowering our team members to deliver solutions
               </p>
             </div>
           </div>
