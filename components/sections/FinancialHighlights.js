@@ -152,8 +152,8 @@ const FinancialHighlights = () => {
                       Lending and Credit Quality
                     </p>
                     <p>
-                      Total loans decreased $26 million or 7 percent. However,
-                      excluding the effect of loan pay downs from Paycheck
+                      Total loans decreased $26 million or 7%. However,
+                      excluding the effect of loan paydowns from Paycheck
                       Protection Program (PPP) forgiveness payments during 2021,
                       loans increased $25.2 million, or 9.2%. Our owner-occupied
                       commercial real estate portfolio, which represents one of
