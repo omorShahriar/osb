@@ -71,7 +71,7 @@ const BoardOfDirectors = () => {
                     G. ROBERT BISHOP JOINED IN 1991
                   </h2>
                   <p className="text-sm lg:text-base">
-                    Retired, Georgia Department of Natural Resources Bob has
+                    Retired, Georgia Department of Natural Resources - Bob has
                     served as a director since 1991. His business experience,
                     together with his historical knowledge of the corporation,
                     makes Bob an integral member of the Board of Directors.
@@ -87,7 +87,7 @@ const BoardOfDirectors = () => {
                     TONY L. POWELL JOINED IN 2018
                   </h2>
                   <p className="text-sm lg:text-base">
-                    President, Powell Home Builders, Inc. Tony has a degree in
+                    President, Powell Home Builders, Inc. - Tony has a degree in
                     Landscape Architecture from the University of Georgia and
                     graduated high school from Oconee County High School. He is
                     President and founder of Powell Home Builders, Inc., a
@@ -104,7 +104,7 @@ const BoardOfDirectors = () => {
                     BRIAN J. BRODRICK JOINED IN 2016
                   </h2>
                   <p className="text-sm lg:text-base">
-                    Partner & Manager of Jackson Spalding – Athens, Brian has
+                    Partner & Manager of Jackson Spalding – Athens - Brian has
                     more than 25 years of strategic communications experience,
                     the past 22 at Jackson Spalding, Georgia’s leading
                     independent marketing communications agency. Brian also
@@ -122,7 +122,7 @@ const BoardOfDirectors = () => {
                   </h2>
                   <p className="text-sm lg:text-base">
                     Director of Financial Reporting & Assurance Services,
-                    Trinity Accounting Group, PC Toby received his Bachelor of
+                    Trinity Accounting Group - PC Toby received his Bachelor of
                     Business Administration from the University of Georgia in
                     1998 and is a member of the Georgia Society of CPA’s, the
                     AICPA, and the National Association of Certified Valuation
@@ -144,8 +144,8 @@ const BoardOfDirectors = () => {
                   <p className="text-sm lg:text-base">
                     General Partner/Treasurer of Hardigree Properties &
                     currently serves as the County Clerk for the Oconee County
-                    Government, Holly has strong ties in Oconee County. She is a
-                    graduate of UGA’s Terry College of Business, where she
+                    Government - Holly has strong ties in Oconee County. She is
+                    a graduate of UGA’s Terry College of Business, where she
                     earned a BBA in Risk Management. She proudly serves in many
                     capacities in the local community, most notably with Oconee
                     County 4-H Club and Watkinsville First Baptist Church.
@@ -161,7 +161,7 @@ const BoardOfDirectors = () => {
                     JONATHAN R. MURROW, MD JOINED IN 2016
                   </h2>
                   <p className="text-sm lg:text-base">
-                    Cardiologist, Piedmont Heart Institute – Athens, Jonathan
+                    Cardiologist, Piedmont Heart Institute, Athens - Jonathan
                     received his undergraduate degree from Harvard College. He
                     earned his medical degree from Emory University School of
                     Medicine in 2001. He completed his internal medicine
@@ -179,7 +179,7 @@ const BoardOfDirectors = () => {
                     J. ALBERT HALE, SR. JOINED IN 2008
                   </h2>
                   <p className="text-sm lg:text-base">
-                    Board Vice Chair, Owner, Hale’s Dairy Albert brings a
+                    Board Vice Chair, Owner, Hale’s Dairy - Albert brings a
                     balanced perspective to the Board of Directors. His
                     demonstrated business experience, leadership skills, and
                     management skills make him an excellent addition to our
@@ -197,7 +197,7 @@ const BoardOfDirectors = () => {
                   </h2>
                   <p className="text-sm lg:text-base">
                     Board Chair, President & Chief Executive Officer, Wells &
-                    Co. Realtors, Inc. Virginia graduated from UGA’s Terry
+                    Co. Realtors, Inc. - Virginia graduated from UGA’s Terry
                     College of Business in 1982 with a degree in Banking and
                     Finance, and she is proud to have been in the real estate
                     business for more than 40 years.
@@ -213,12 +213,12 @@ const BoardOfDirectors = () => {
                     T. NEIL STEVENS JOINED IN 2016
                   </h2>
                   <p className="text-sm lg:text-base">
-                    President & Chief Executive Officer, Oconee State Bank Neil
-                    brings more than 30 years of broad based banking experience
-                    to the team. Over the years, his main focus has been to lead
-                    financial institutions to levels of accelerated performance
-                    by placing a high emphasis on building a remarkable culture
-                    within the organization.
+                    President & Chief Executive Officer, Oconee State Bank -
+                    Neil brings more than 30 years of broad based banking
+                    experience to the team. Over the years, his main focus has
+                    been to lead financial institutions to levels of accelerated
+                    performance by placing a high emphasis on building a
+                    remarkable culture within the organization.
                   </p>
                 </div>
               </motion.div>
@@ -231,7 +231,7 @@ const BoardOfDirectors = () => {
                     LAURA H. WHITAKER JOINED IN 2020
                   </h2>
                   <p className="text-sm lg:text-base">
-                    Chief Executive Officer, Extra Special People, Inc. Laura
+                    Chief Executive Officer, Extra Special People, Inc. - Laura
                     obtained both her Bachelor’s degree in Collaborative Special
                     Education and her Master’s degree in Adapted Curriculum
                     Classic Autism at the University of Georgia. She is an

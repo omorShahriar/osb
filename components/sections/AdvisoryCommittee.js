@@ -88,7 +88,7 @@ const AdvisoryCommittee = () => {
                 variants={blockVariants}
                 initial="hidden"
                 animate={inView ? "visible" : "hidden"}
-                className=" md:text-center text-justify max-w-[80ch] mx-auto lg:text-base text-sm "
+                className="  text-justify max-w-[80ch] mx-auto lg:text-base text-sm "
               >
                 Oconee State Bank’s Community Advisory Committees serve as
                 ambassadors of Oconee State Bank, our eyes and ears in the
